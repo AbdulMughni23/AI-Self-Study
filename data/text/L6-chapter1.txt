@@ -1,346 +1,975 @@
 <p>Introduction</p>
 <p>Working as a Physicist is a key feature of the Edexcel Physics AS and A level specification. Throughout your study of physics, you will develop knowledge and understanding of what it means to work scientifically, including the ways in which the scientific community functions and how society as a whole uses scientific ideas. Additionally, you will develop confidence in key scientific skills, such as manipulating quantities and units and making estimates.</p>
-<p>These skills have been integrated into the approach of this course, so that they will naturally develop as you learn. To help you think about where these skills apply, we have placed a WP alongside any content which specifically covers the Working as a Physicist skills listed in the specification.</p>
-<p>At the end of each chapter in this book, there is a spread entitled Thinking Bigger. These spreads are based broadly on the content of the chapter just completed, but they will also draw on your prior learning from earlier in the course or from GCSE and point towards future learning and less familiar contexts. By working through these spreads, you will:</p>
-<ul>
-<li>read real-life scientific writing in a variety of contexts and aimed at different audiences</li>
-<li>develop an understanding of how the professional scientific community functions</li>
-<li>learn to think critically about the nature of what you have read and understand the issues, problems and challenges that may be raised</li>
-<li>gain practice in communicating information and ideas in an appropriate scientific way</li>
-<li>apply your knowledge and understanding to unfamiliar contexts.</li>
+
+
 </ul>
 <p>You will also gain scientific skills through the hands-on practical work that forms an essential part of your course. As well as understanding the experimental methods of the practicals, it is important that you develop the skills necessary to plan experiments and analyse and evaluate data. Not only are these very important scientific skills, but they will be assessed in your examinations.</p>
 <p>Maths for Physicists</p>
 <ul>
-<li>Recognise and make use of appropriate units in calculations (e.g. knowing the difference between base and derived units)</li>
-<li>Estimate results (e.g. estimating what change there will be to the magnification of a lens system as it is moved closer to the object being viewed)</li>
-<li>Make order of magnitude calculations (e.g. estimating approximately what an answer should be before you start calculating, including using standard form)</li>
-<li>Use algebra to rearrange and solve equations (e.g. finding the landing point of a projectile)</li>
-<li>Recognise the importance of the straight line graph as an analysis tool for the verification and development of physical laws by experimentation (e.g. choosing appropriate variables to plot to generate a straight line graph with experimental data)</li>
-<li>Determine the slope and intercept of a linear graph (e.g. finding acceleration from a velocity-time graph)</li>
-<li>Calculate the area under the line on a graph (e.g. finding the energy stored in a stretched wire)</li>
-<li>Use geometry and trigonometry (e.g. finding components of vectors)</li>
+    <li>Recognise and make use of appropriate units in calculations (e.g. knowing the difference between base and derived units)</li>
+    <li>Estimate results (e.g. estimating what change there will be to the magnification of a lens system as it is moved closer to the object being viewed)</li>
+    <li>Make order of magnitude calculations (e.g. estimating approximately what an answer should be before you start calculating, including using standard form)</li>
+    <li>Use algebra to rearrange and solve equations (e.g. finding the landing point of a projectile)</li>
+    <li>Recognise the importance of the straight line graph as an analysis tool for the verification and development of physical laws by experimentation (e.g. choosing appropriate variables to plot to generate a straight line graph with experimental data)</li>
+    <li>Determine the slope and intercept of a linear graph (e.g. finding acceleration from a velocity-time graph)</li>
+    <li>Calculate the area under the line on a graph (e.g. finding the energy stored in a stretched wire)</li>
+    <li>Use geometry and trigonometry (e.g. finding components of vectors)</li>
 </ul>
 
-<p>What have I studied before?</p>
-<ul>
-<li>Planning and safely carrying out experiments to collect scientific data</li>
-<li>Analysing data and evaluating the validity and reliability of the methods of data collection</li>
-<li>Making logical conclusions based on the balance of reliable data collected</li>
-<li>Communicating scientific methods, conclusions and arguments using technical and mathematical language</li>
-<li>Consideration of the implications, including benefits and risks, of scientific and technological developments</li>
-<li>Understanding how society uses scientific knowledge to make decisions about the implementation of technological developments</li>
-<li>Understanding of how scientific ideas change over time, and the systems in place to validate these changes</li>
-</ul>
-<p>What will I study later?</p>
-<ul>
-<li>Practical skills and techniques for some key physics experiments</li>
-<li>How to communicate information and ideas in appropriate ways using appropriate terminology</li>
-<li>The implications of science and their associated benefits and risks</li>
-<li>The role of the scientific community in validating new knowledge and ensuring integrity</li>
-<li>The ways in which society uses science to inform decision making</li>
-</ul>
+
 <p>What will I study in this chapter?</p>
 <ul>
-<li>The distinction between base and derived quantities and their SI units</li>
-<li>How to estimate values for physical quantities and use these estimates to solve problems</li>
+    <li>The distinction between base and derived quantities and their SI units</li>
+    <li>How to estimate values for physical quantities and use these estimates to solve problems</li>
 </ul>
 
 <p>By the end of this section, you should be able to...</p>
 <ul>
-<li>understand the distinction between base and derived quantities</li>
-<li>understand the idea of a fixed system of units, and explain the SI system</li>
+    <li>understand the distinction between base and derived quantities</li>
+    <li>understand the idea of a fixed system of units, and explain the SI system</li>
 </ul>
 <h3>Base and derived quantities</h3>
-<p>Some measurements we make are of fundamental qualities of things in the Universe. For example, the length of a pencil is a fundamental property of the object. Compare this with the pencil’s speed if you drop it. To give a value to the speed, we have to consider a distance moved, and the rate of motion over that distance – we also need to measure time and then perform a calculation. You can see that there is a fundamental difference between the types of quantity that are length and speed. We call the length a <strong>base unit</strong>, whilst the speed is a <strong>derived unit</strong>. At present, the international scientific community uses seven base units, and from these all other units are derived. Some derived units have their own names. For example, the derived unit of force should be kg m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>, but this has been named the newton (N). Other derived units do not get their own name, and we just list the base units that went together in deriving the quantity. For example, speed is measured in m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>.</p>
+<p>Some measurements we make are of fundamental qualities of things in the Universe. For example, the length of a pencil is a fundamental property of the object. Compare this with the pencil’s speed if you drop it. To give a value to the speed, we have to consider a distance moved, and the rate of motion over that distance – we also need to measure time and then perform a calculation. You can see that there is a fundamental difference between the types of quantity that are length and speed. We call the length a <strong>base unit</strong>, whilst the speed is a <strong>derived unit</strong>. At present, the international scientific community uses seven base units, and from these all other units are derived. Some derived units have their own names. For example, the derived unit of force should be kg m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <msup>
+                            <mrow></mrow>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">^{-2}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>, but this has been named the newton (N). Other derived units do not get their own name, and we just list the base units that went together in deriving the quantity. For example, speed is measured in m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <msup>
+                            <mrow></mrow>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">^{-1}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>.</p>
 <table>
-<thead>
-<tr>
-<th>Basic quantity</th>
-<th>Unit name</th>
-<th>Unit symbol</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Mass</td>
-<td>kilogram</td>
-<td>kg</td>
-</tr>
-<tr>
-<td>Time</td>
-<td>second</td>
-<td>s</td>
-</tr>
-<tr>
-<td>Length</td>
-<td>metre</td>
-<td>m</td>
-</tr>
-<tr>
-<td>Electric current</td>
-<td>ampere</td>
-<td>A</td>
-</tr>
-<tr>
-<td>Temperature</td>
-<td>kelvin</td>
-<td>K</td>
-</tr>
-<tr>
-<td>Amount of substance</td>
-<td>mole</td>
-<td>mol</td>
-</tr>
-<tr>
-<td>Luminous intensity</td>
-<td>candela</td>
-<td>cd</td>
-</tr>
-</tbody></table>
+    <thead>
+        <tr>
+            <th>Basic quantity</th>
+            <th>Unit name</th>
+            <th>Unit symbol</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mass</td>
+            <td>kilogram</td>
+            <td>kg</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>second</td>
+            <td>s</td>
+        </tr>
+        <tr>
+            <td>Length</td>
+            <td>metre</td>
+            <td>m</td>
+        </tr>
+        <tr>
+            <td>Electric current</td>
+            <td>ampere</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Temperature</td>
+            <td>kelvin</td>
+            <td>K</td>
+        </tr>
+        <tr>
+            <td>Amount of substance</td>
+            <td>mole</td>
+            <td>mol</td>
+        </tr>
+        <tr>
+            <td>Luminous intensity</td>
+            <td>candela</td>
+            <td>cd</td>
+        </tr>
+    </tbody>
+</table>
 <p><strong>Table A</strong> The base units.</p>
 <p>The choice of which quantities are the base ones is somewhat a matter of arbitrary choice. The scientists who meet to determine the standard unit system have chosen these seven. You might think that electric current is not a fundamental property, as it is the rate of movement of charge. So it could be derived from measuring charge and time. However, scientists had to pick what was fundamental and they chose current. This means that electric charge is a derived quantity found by multiplying current passing for a given time.</p>
 <h3>SI units</h3>
 <p>For each of the base units, a meeting held every four or six years of the General Conference on Weights and Measures, under the authority of the Bureau International des Poids et Mesures in Paris, either alters the definition, or ratifies continuing with the current definitions. As we learn more and more about the Universe, these definitions are gradually moving towards the fundamental constants of nature.</p>
 <p>The current definition of each of the seven base units is listed below:</p>
 <ul>
-<li>The kilogram is the unit of mass; it is equal to the mass of the international prototype of the kilogram.</li>
-<li>The second is the duration of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>9</mn><mtext> </mtext><mn>192</mn><mtext> </mtext><mn>631</mn><mtext> </mtext><mn>770</mn></mrow><annotation encoding="application/x-tex">9,192,631,770</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">9</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">192</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">631</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">770</span></span></span></span> periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom.</li>
-<li>The metre is the length of the path travelled by light in vacuum during a time interval of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mrow><mn>299</mn><mtext> </mtext><mn>792</mn><mtext> </mtext><mn>458</mn></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{299,792,458}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">299</span><span class="mspace mtight" style="margin-right:0.1952em;"></span><span class="mord mtight">792</span><span class="mspace mtight" style="margin-right:0.1952em;"></span><span class="mord mtight">458</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> of a second.</li>
-<li>The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 m apart in vacuum, would produce between these conductors a force equal to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></mrow><annotation encoding="application/x-tex">2 \times 10^{-7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span> newton per metre of length.</li>
-<li>The kelvin, unit of thermodynamic temperature, is the fraction <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mn>273.16</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{273.16}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">273.16</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> of the thermodynamic temperature of the triple point of water.</li>
+    <li>The kilogram is the unit of mass; it is equal to the mass of the international prototype of the kilogram.</li>
+    <li>The second is the duration of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mn>9</mn>
+                            <mtext> </mtext>
+                            <mn>192</mn>
+                            <mtext> </mtext>
+                            <mn>631</mn>
+                            <mtext> </mtext>
+                            <mn>770</mn>
+                        </mrow>
+                        <annotation encoding="application/x-tex">9,192,631,770</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">9</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">192</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">631</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">770</span></span></span></span> periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom.</li>
+    <li>The metre is the length of the path travelled by light in vacuum during a time interval of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mfrac>
+                                <mn>1</mn>
+                                <mrow>
+                                    <mn>299</mn>
+                                    <mtext> </mtext>
+                                    <mn>792</mn>
+                                    <mtext> </mtext>
+                                    <mn>458</mn>
+                                </mrow>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex">\frac{1}{299,792,458}</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">299</span><span class="mspace mtight" style="margin-right:0.1952em;"></span><span class="mord mtight">792</span><span class="mspace mtight" style="margin-right:0.1952em;"></span><span class="mord mtight">458</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> of a second.</li>
+    <li>The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 m apart in vacuum, would produce between these conductors a force equal to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mn>2</mn>
+                            <mo>×</mo>
+                            <msup>
+                                <mn>10</mn>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>7</mn>
+                                </mrow>
+                            </msup>
+                        </mrow>
+                        <annotation encoding="application/x-tex">2 \times 10^{-7}</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span> newton per metre of length.</li>
+    <li>The kelvin, unit of thermodynamic temperature, is the fraction <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mfrac>
+                                <mn>1</mn>
+                                <mn>273.16</mn>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex">\frac{1}{273.16}</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">273.16</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> of the thermodynamic temperature of the triple point of water.</li>
 </ul>
 
 <p>• The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kg of carbon-12. (When the mole is used, the elementary entities must be specified and may be atoms, molecules, ions, electrons, other particles or specified groups of such particles.)</p>
-<p>• The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>540</mn><mo>×</mo><msup><mn>10</mn><mn>12</mn></msup></mrow><annotation encoding="application/x-tex">540 \times 10^{12}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">540</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span> hertz and that has a radiant intensity in that direction of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mn>683</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{683}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">683</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> watt per steradian.</p>
-<p>![fig B](A standard metre, made to be exactly the length that light could travel in 1/299 792 458 of a second.)</p>
-<p><strong>Learning tip</strong></p>
+<p>• The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mn>540</mn>
+                        <mo>×</mo>
+                        <msup>
+                            <mn>10</mn>
+                            <mn>12</mn>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">540 \times 10^{12}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">540</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span> hertz and that has a radiant intensity in that direction of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>683</mn>
+                        </mfrac>
+                    </mrow>
+                    <annotation encoding="application/x-tex">\frac{1}{683}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">683</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> watt per steradian.</p>
+<p>A standard metre, made to be exactly the length that light could travel in 1/299 792 458 of a second</p>
+
 <p>‘Metrology’ is the study of the science of measurement, and ‘metrics’ refers to ways of standardising measuring techniques.</p>
+
 <p><strong>Derived units</strong></p>
 <p>In table B you will see many of the derived units that we will study in this book, but this is only a list of those that have their own name.</p>
 <table>
-<thead>
-<tr>
-<th>Derived quantity</th>
-<th>Unit name</th>
-<th>Unit symbol</th>
-<th>Base units equivalent</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Force</td>
-<td>newton</td>
-<td>N</td>
-<td>kg m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
-</tr>
-<tr>
-<td>Energy (work)</td>
-<td>joule</td>
-<td>J</td>
-<td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
-</tr>
-<tr>
-<td>Power</td>
-<td>watt</td>
-<td>W</td>
-<td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></td>
-</tr>
-<tr>
-<td>Frequency</td>
-<td>hertz</td>
-<td>Hz</td>
-<td>s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
-</tr>
-<tr>
-<td>Charge</td>
-<td>coulomb</td>
-<td>C</td>
-<td>A s</td>
-</tr>
-<tr>
-<td>Voltage</td>
-<td>volt</td>
-<td>V</td>
-<td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> A<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
-</tr>
-<tr>
-<td>resistance</td>
-<td>ohm</td>
-<td>Ω</td>
-<td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> A<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
-</tr>
-</tbody></table>
+    <thead>
+        <tr>
+            <th>Derived quantity</th>
+            <th>Unit name</th>
+            <th>Unit symbol</th>
+            <th>Base units equivalent</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Force</td>
+            <td>newton</td>
+            <td>N</td>
+            <td>kg m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Energy (work)</td>
+            <td>joule</td>
+            <td>J</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Power</td>
+            <td>watt</td>
+            <td>W</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Frequency</td>
+            <td>hertz</td>
+            <td>Hz</td>
+            <td>s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-1}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Charge</td>
+            <td>coulomb</td>
+            <td>C</td>
+            <td>A s</td>
+        </tr>
+        <tr>
+            <td>Voltage</td>
+            <td>volt</td>
+            <td>V</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> A<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-1}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>resistance</td>
+            <td>ohm</td>
+            <td>Ω</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> A<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Table B</strong> Some well known derived units.</p>
+
 <p><strong>Power prefixes</strong></p>
 <p>Sometimes the values we have to work with for some quantities mean that the numbers involved are extremely large or small. For example, the average distance from the Earth to the Sun, measured in metres, is 150 000 000 000 m. Scientists have developed a system for abbreviating such large values by adding a prefix to the unit which tells us that it has been multiplied by a very large or very small amount. In our Earth orbit example, the distance is equivalent to 150 billion metres, and the prefix giga-means multiply by a billion. So the Earth–Sun distance becomes 150 gigametres, or 150 Gm.</p>
 <table>
-<thead>
-<tr>
-<th>Factor</th>
-<th>Name</th>
-<th>Symbol</th>
-<th>Factor</th>
-<th>Name</th>
-<th>Symbol</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>1</mn></msup></mrow><annotation encoding="application/x-tex">10^1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></td>
-<td>deca-</td>
-<td>da</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>deci-</td>
-<td>d</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">10^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></td>
-<td>hecto-</td>
-<td>h</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>centi-</td>
-<td>c</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">10^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></td>
-<td>kilo-</td>
-<td>k</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>milli-</td>
-<td>m</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>6</mn></msup></mrow><annotation encoding="application/x-tex">10^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></td>
-<td>mega-</td>
-<td>M</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-6}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>micro-</td>
-<td>μ</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>9</mn></msup></mrow><annotation encoding="application/x-tex">10^9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></td>
-<td>giga-</td>
-<td>G</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>9</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-9}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>nano-</td>
-<td>n</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>12</mn></msup></mrow><annotation encoding="application/x-tex">10^{12}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>tera-</td>
-<td>T</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>12</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-12}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>pico-</td>
-<td>p</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>15</mn></msup></mrow><annotation encoding="application/x-tex">10^{15}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>peta-</td>
-<td>P</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>15</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-15}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>femto-</td>
-<td>f</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>18</mn></msup></mrow><annotation encoding="application/x-tex">10^{18}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">18</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>exa-</td>
-<td>E</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>18</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-18}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">18</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>atto-</td>
-<td>a</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>21</mn></msup></mrow><annotation encoding="application/x-tex">10^{21}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">21</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>zetta-</td>
-<td>Z</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>21</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-21}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">21</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>zepto-</td>
-<td>z</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mn>24</mn></msup></mrow><annotation encoding="application/x-tex">10^{24}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">24</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>yotta-</td>
-<td>Y</td>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>24</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-24}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">24</span></span></span></span></span></span></span></span></span></span></span></span></td>
-<td>yocto-</td>
-<td>y</td>
-</tr>
-</tbody></table>
-<p><strong>Questions</strong></p>
-<ol>
-<li><p>From table B:
-(a) Pick any quantity that you have studied before and explain how it can have the base unit equivalent shown.
-(b) All of the derived quantity units are named after scientists. What is slightly strange about the way the unit names are written compared with their abbreviations?</p>
-</li>
-<li><p>Write the following in standard form:
-(a) 9.2 GW
-(b) 43 mm
-(c) 6400 km
-(d) 44 ns.</p>
-</li>
-<li><p>Write the following using an appropriate prefix and unit symbol:
-(a) 3 600 000 joules
-(b) 31 536 000 seconds
-(c) 10 millionths of an ampere
-(d) 105 000 hertz.</p>
-</li>
-</ol>
+    <thead>
+        <tr>
+            <th>Factor</th>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Factor</th>
+            <th>Name</th>
+            <th>Symbol</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>1</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^1</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>deca-</td>
+            <td>da</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-1}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>deci-</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>hecto-</td>
+            <td>h</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>centi-</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>3</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^3</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>kilo-</td>
+            <td>k</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>milli-</td>
+            <td>m</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>6</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^6</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>mega-</td>
+            <td>M</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>6</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-6}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>micro-</td>
+            <td>μ</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>9</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^9</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>giga-</td>
+            <td>G</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>9</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-9}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>nano-</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>12</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{12}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>tera-</td>
+            <td>T</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>12</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-12}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>pico-</td>
+            <td>p</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>15</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{15}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>peta-</td>
+            <td>P</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>15</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-15}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>femto-</td>
+            <td>f</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>18</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{18}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">18</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>exa-</td>
+            <td>E</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>18</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-18}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">18</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>atto-</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>21</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{21}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">21</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>zetta-</td>
+            <td>Z</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>21</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-21}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">21</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>zepto-</td>
+            <td>z</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>24</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{24}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">24</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>yotta-</td>
+            <td>Y</td>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>24</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">10^{-24}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">24</span></span></span></span></span></span></span></span></span></span></span></span></td>
+            <td>yocto-</td>
+            <td>y</td>
+        </tr>
+    </tbody>
+</table>
 
-<p>Order of magnitude</p>
+
+<p><strong>Order of magnitude</strong></p>
 <p>In physics it can be very helpful to be able to make approximate estimates of values to within an order of magnitude. This means that the power of ten of your estimate is the same as the true value. For example, you are the same height as the ceiling in your classroom, if we consider the order of magnitude. The ceiling may be twice your height, but it would need to be ten times bigger to reach the next order of magnitude.</p>
 <p>This is made clearer if we express all values in standard form and then compare the power of ten. You are likely to be a thousand times taller than an ant, so we would say you are three orders of magnitude larger.</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>typical ant height: </mtext><mn>2</mn><mtext> mm</mtext><mo>=</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">
-\text{typical ant height: } 2 \text{ mm} = 2 \times 10^{-3} \text{ m}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">typical ant height: </span></span><span class="mord">2</span><span class="mord text"><span class="mord"> mm</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></span>
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>typical human height: </mtext><mn>2</mn><mtext> m</mtext><mo>=</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mn>0</mn></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">
-\text{typical human height: } 2 \text{ m} = 2 \times 10^0 \text{ m}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">typical human height: </span></span><span class="mord">2</span><span class="mord text"><span class="mord"> m</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>typical ant height: </mtext>
+                            <mn>2</mn>
+                            <mtext> mm</mtext>
+                            <mo>=</mo>
+                            <mn>2</mn>
+                            <mo>×</mo>
+                            <msup>
+                                <mn>10</mn>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>3</mn>
+                                </mrow>
+                            </msup>
+                            <mtext> m</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{typical ant height: } 2 \text{ mm} = 2 \times 10^{-3} \text{ m}
+                        </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">typical ant height: </span></span><span class="mord">2</span><span class="mord text"><span class="mord"> mm</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></span>
+    <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>typical human height: </mtext>
+                            <mn>2</mn>
+                            <mtext> m</mtext>
+                            <mo>=</mo>
+                            <mn>2</mn>
+                            <mo>×</mo>
+                            <msup>
+                                <mn>10</mn>
+                                <mn>0</mn>
+                            </msup>
+                            <mtext> m</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{typical human height: } 2 \text{ m} = 2 \times 10^0 \text{ m}
+                        </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">typical human height: </span></span><span class="mord">2</span><span class="mord text"><span class="mord"> m</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></span>
+</p>
 <p>In many situations, physicists are not interested in specific answers, as circumstances can vary slightly and then the specific answer is incorrect. An order of magnitude answer will always be correct, unless you change the initial conditions by more than an order of magnitude. So a physicist could easily answer the question ‘What is the top speed of a car?’ because we don’t really want to know the exact true value. To give an exact answer would depend on knowing the model of car, and the weather and road conditions being considered, and this answer would only be correct for that car on that day. By estimating important quantities, like a typical mass for cars, we can get an approximate – order of magnitude – answer. The reason for doing so would be that it allows us to develop ideas as possible or impossible, and focus on developing the ideas along lines that will eventually be feasible when we get to developing a specific solution. This reduces time and money wasted by pursuing ideas that can never be realised. It is also vital in quickly spotting when we have miscalculated the answer to a question. If we used a sophisticated equation to calculate the answer to the top speed of a particular car in particular conditions, and the answer came out as 300 000 metres per second, we should immediately know that the answer is incorrect, and re-check the calculation.</p>
 <table>
-<thead>
-<tr>
-<th>Order of magnitude scale</th>
-<th>Typical object</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mn>13</mn></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{13} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">13</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Size of the solar system</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mn>11</mn></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{11} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Size of Earth’s orbit around the Sun</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mn>8</mn></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^8 \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Size of Moon’s orbit around Earth</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^4 \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Diameter of Manchester</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mn>0</mn></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^0 \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Human height</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{-3} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Ant height</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{-5} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Biological cell diameter</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>8</mn></mrow></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{-8} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Wavelength of ultraviolet light</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>10</mn></mrow></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{-10} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Diameter of an atom</td>
-</tr>
-<tr>
-<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>14</mn></mrow></msup><mtext> m</mtext></mrow><annotation encoding="application/x-tex">1 \times 10^{-14} \text{ m}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">14</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
-<td>Diameter of an atomic nucleus</td>
-</tr>
-</tbody></table>
+    <thead>
+        <tr>
+            <th>Order of magnitude scale</th>
+            <th>Typical object</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>13</mn>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{13} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">13</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Size of the solar system</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>11</mn>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{11} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Size of Earth’s orbit around the Sun</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>8</mn>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^8 \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Size of Moon’s orbit around Earth</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>4</mn>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^4 \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Diameter of Manchester</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mn>0</mn>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^0 \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Human height</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{-3} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Ant height</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>5</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{-5} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Biological cell diameter</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>8</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{-8} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Wavelength of ultraviolet light</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>10</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{-10} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Diameter of an atom</td>
+        </tr>
+        <tr>
+            <td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mo>×</mo>
+                                    <msup>
+                                        <mn>10</mn>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>14</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext> m</mtext>
+                                </mrow>
+                                <annotation encoding="application/x-tex">1 \times 10^{-14} \text{ m}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">14</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> m</span></span></span></span></span></td>
+            <td>Diameter of an atomic nucleus</td>
+        </tr>
+    </tbody>
+</table>
 <p>Fermi questions</p>
 <p>Enrico Fermi was one of the developers of both nuclear reactors and nuclear bombs, along with other work on particle physics, quantum physics and statistical mechanics. He was awarded the 1938 Nobel Prize for Physics for the discovery of new radioactive elements and induced radioactivity.</p>
 
@@ -354,35 +983,324 @@
 <p>The only piece of information he provided was that the population of Chicago was 3 million.</p>
 <p>Step 1: How many pianos in Chicago?</p>
 <p>If each household is 4 people, then there are:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mn>3</mn><mo separator="true">,</mo><mn>000</mn><mo separator="true">,</mo><mn>000</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>750</mn><mo separator="true">,</mo><mn>000</mn><mtext> households</mtext></mrow><annotation encoding="application/x-tex">
-\frac{3,000,000}{4} = 750,000 \text{ households}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">750</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mord text"><span class="mord"> households</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mn>3</mn>
+                                    <mo separator="true">,</mo>
+                                    <mn>000</mn>
+                                    <mo separator="true">,</mo>
+                                    <mn>000</mn>
+                                </mrow>
+                                <mn>4</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mn>750</mn>
+                            <mo separator="true">,</mo>
+                            <mn>000</mn>
+                            <mtext> households</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \frac{3,000,000}{4} = 750,000 \text{ households}
+                        </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">750</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mord text"><span class="mord"> households</span></span></span></span></span></span></p>
 <p>If one household in ten owns a piano, then there are:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mn>750</mn><mo separator="true">,</mo><mn>000</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mn>75</mn><mo separator="true">,</mo><mn>000</mn><mtext> pianos</mtext></mrow><annotation encoding="application/x-tex">
-\frac{750,000}{10} = 75,000 \text{ pianos}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">750</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8623em;vertical-align:-0.1944em;"></span><span class="mord">75</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mord text"><span class="mord"> pianos</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mfrac>
+                                <mrow>
+                                    <mn>750</mn>
+                                    <mo separator="true">,</mo>
+                                    <mn>000</mn>
+                                </mrow>
+                                <mn>10</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mn>75</mn>
+                            <mo separator="true">,</mo>
+                            <mn>000</mn>
+                            <mtext> pianos</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \frac{750,000}{10} = 75,000 \text{ pianos}
+                        </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">750</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8623em;vertical-align:-0.1944em;"></span><span class="mord">75</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mord text"><span class="mord"> pianos</span></span></span></span></span></span></p>
 <p>Step 2: How many pianos per piano tuner?</p>
-<p>Assume each piano needs tuning once annually. Further assume a piano tuner works 200 days a year, and can service 4 pianos a day. Each tuner can service: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>200</mn><mo>×</mo><mn>4</mn><mo>=</mo><mn>800</mn></mrow><annotation encoding="application/x-tex">200 \times 4 = 800</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">800</span></span></span></span> pianos.</p>
+<p>Assume each piano needs tuning once annually. Further assume a piano tuner works 200 days a year, and can service 4 pianos a day. Each tuner can service: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mn>200</mn>
+                        <mo>×</mo>
+                        <mn>4</mn>
+                        <mo>=</mo>
+                        <mn>800</mn>
+                    </mrow>
+                    <annotation encoding="application/x-tex">200 \times 4 = 800</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">800</span></span></span></span> pianos.</p>
 <p>Step 3: How many tuners?</p>
-<p>Each piano tuner can deal with 800 pianos, and there are 75,000 pianos in total. So there are: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mn>75</mn><mo separator="true">,</mo><mn>000</mn></mrow><mn>800</mn></mfrac><mo>=</mo><mn>94</mn></mrow><annotation encoding="application/x-tex">\frac{75,000}{800} = 94</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2422em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8972em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">800</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4461em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">75</span><span class="mpunct mtight">,</span><span class="mord mtight">000</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">94</span></span></span></span> piano tuners.</p>
+<p>Each piano tuner can deal with 800 pianos, and there are 75,000 pianos in total. So there are: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mfrac>
+                            <mrow>
+                                <mn>75</mn>
+                                <mo separator="true">,</mo>
+                                <mn>000</mn>
+                            </mrow>
+                            <mn>800</mn>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mn>94</mn>
+                    </mrow>
+                    <annotation encoding="application/x-tex">\frac{75,000}{800} = 94</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2422em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8972em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">800</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4461em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">75</span><span class="mpunct mtight">,</span><span class="mord mtight">000</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">94</span></span></span></span> piano tuners.</p>
 <p>Your answer to Fermi would be ‘There are 100 piano tuners in Chicago’. This is not expected to be the exactly correct answer, but it will be correct to order of magnitude. We would not expect to find that Chicago has only 10 piano tuners, and it would be very surprising if there were 1000.</p>
-<p>Questions</p>
+
+<p><strong>Questions</strong></p>
 <ol>
-<li><p>Give an order of magnitude estimate for the following quantities:
-(a) the height of a giraffe
-(b) the mass of an apple
-(c) the reaction time of a human
-(d) the diameter of a planet
-(e) the temperature in this room.</p>
-</li>
-<li><p>Answer the following Fermi questions, showing all the steps and the assumptions and estimates you make.
-(a) How many tennis balls would fit into Winchester Cathedral?
-(b) How many atoms are there in your body?
-(c) How many drops of water are there in the English Channel?
-(d) In your lifetime, how much will you earn in total?
-(e) How many Fermi questions could Enrico Fermi have answered whilst flying from Rome to New York?</p>
-</li>
+    <li>
+        <table>
+    <thead>
+        <tr>
+            <th>Derived quantity</th>
+            <th>Unit name</th>
+            <th>Unit symbol</th>
+            <th>Base units equivalent</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Force</td>
+            <td>newton</td>
+            <td>N</td>
+            <td>kg m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Energy (work)</td>
+            <td>joule</td>
+            <td>J</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Power</td>
+            <td>watt</td>
+            <td>W</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Frequency</td>
+            <td>hertz</td>
+            <td>Hz</td>
+            <td>s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-1}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>Charge</td>
+            <td>coulomb</td>
+            <td>C</td>
+            <td>A s</td>
+        </tr>
+        <tr>
+            <td>Voltage</td>
+            <td>volt</td>
+            <td>V</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> A<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-1}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+        <tr>
+            <td>resistance</td>
+            <td>ohm</td>
+            <td>Ω</td>
+            <td>kg m<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^2</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>3</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-3}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> A<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mrow></mrow>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                </mrow>
+                                <annotation encoding="application/x-tex">^{-2}</annotation>
+                            </semantics>
+                        </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Table B</strong> Some well known derived units.</p>
+        <p>From table B:
+            (a) Pick any quantity that you have studied before and explain how it can have the base unit equivalent shown.
+            (b) All of the derived quantity units are named after scientists. What is slightly strange about the way the unit names are written compared with their abbreviations?</p>
+    </li>
+    <li>
+        <p>Write the following in standard form:
+            (a) 9.2 GW
+            (b) 43 mm
+            (c) 6400 km
+            (d) 44 ns.</p>
+    </li>
+    <li>
+        <p>Write the following using an appropriate prefix and unit symbol:
+            (a) 3 600 000 joules
+            (b) 31 536 000 seconds
+            (c) 10 millionths of an ampere
+            (d) 105 000 hertz.</p>
+    </li>
 </ol>
 
-
-
+<p><strong>Questions</strong></p>
+<ol>
+    <li>
+        <p>Give an order of magnitude estimate for the following quantities:
+            (a) the height of a giraffe
+            (b) the mass of an apple
+            (c) the reaction time of a human
+            (d) the diameter of a planet
+            (e) the temperature in this room.</p>
+    </li>
+    <li>
+        <p>Answer the following Fermi questions, showing all the steps and the assumptions and estimates you make.
+            (a) How many tennis balls would fit into Winchester Cathedral?
+            (b) How many atoms are there in your body?
+            (c) How many drops of water are there in the English Channel?
+            (d) In your lifetime, how much will you earn in total?
+            (e) How many Fermi questions could Enrico Fermi have answered whilst flying from Rome to New York?</p>
+    </li>
+</ol>
