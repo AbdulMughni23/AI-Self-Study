@@ -66,13 +66,13 @@ def query_ollama(prompt, model_name='mistral'):
 
 def generate_topic_introduction(topic):
     """Generate a topic introduction using reterived chunks as context"""
-    chunks = query_faiss_index(topic, top_k =1)
+    chunks = query_faiss_index(topic, top_k =3)
     if not chunks:
         return "No relevant information found for this topic."
     
     print(f"Reterived {len(chunks)} chunks for topic '{topic}'")
-    # for i, chunk in enumerate(chunks):
-    #     print(f"Chunk {i+1} (Distance: {chunk['distance']:.4f}): {chunk['text'][:500]}...")
+    for i, chunk in enumerate(chunks):
+        print(f"Chunk {i+1} (Distance: {chunk['distance']:.4f}): {chunk['text'][:500]}...")
 
     context = "\n".join([chunk['text'] for chunk in chunks])
     prompt = f"""
