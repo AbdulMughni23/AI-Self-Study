@@ -17,6 +17,8 @@ def process_text(file_path):
             text = f.read()
         return{
             'file_type': 'text',
+            'topic': '',
+            'subtopic': '',
             'file_path': file_path,
             'extracted_text': text,
             'unique_id': str(ObjectId())

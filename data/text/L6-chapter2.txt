@@ -1,203 +1,1225 @@
-<p>How could we calculate how fast a plane is flying, in what direction it is going and how long it will take to reach a certain destination? If you were a pilot, how would you know what force to make the engines produce and where to direct that force so your plane moves to your destination?</p>
-<p>There is an amazing number of calculations that need to be done to enable a successful flight, but the basis on which all of it is worked out is simple mechanics.</p>
+<p>Introductoin</p>
 <p>This chapter explains the multiple movements of objects. It looks at how movement can be described and recorded, and then moves on to explaining why movement happens. It covers velocity and acceleration, including how to calculate these in different situations.</p>
 <p>We only consider objects moving at speeds that could be encountered in everyday life. At these speeds (much less than the speed of light) Sir Isaac Newton succinctly described three laws of motion. With knowledge of basic geometry, we can identify aspects of movement in each dimension.</p>
 <p>Newton’s laws of motion have been constantly under test by scientists ever since he published them in 1687. Within the constraints established by Einstein in the early twentieth century, Newton’s laws have always correctly described the relationships between data collected. You may have a chance to confirm Newton’s laws in experiments of your own. With modern ICT recording of data, the reliability of such experiments is now much improved over traditional methods.</p>
 <p>All the maths you need</p>
 <ul>
-<li>Units of measurement (e.g. the newton, N)</li>
-<li>Using Pythagoras’ theorem, and the angle sum of a triangle (e.g. finding a resultant vector)</li>
-<li>Using sin, cos and tan in physical problems (e.g. resolving vectors)</li>
-<li>Using angles in regular 2D structures (e.g. interpreting force diagrams to solve problems)</li>
-<li>Changing the subject of an equation (e.g. re-arranging the SUVAT equations)</li>
-<li>Substituting numerical values into algebraic equations (e.g. calculating the acceleration)</li>
-<li>Plotting two variables from experimental or other data, understanding that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">y = mx + c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span> represents a linear relationship and determining the slope of a linear graph (e.g. verifying Newton’s second law experimentally)</li>
-<li>Estimating, by graphical methods as appropriate, the area between a curve and the x-axis and realising the physical significance of the area that has been determined (e.g. using a speed–time graph)</li>
+    <li>Units of measurement (e.g. the newton, N)</li>
+    <li>Using Pythagoras’ theorem, and the angle sum of a triangle (e.g. finding a resultant vector)</li>
+    <li>Using sin, cos and tan in physical problems (e.g. resolving vectors)</li>
+    <li>Using angles in regular 2D structures (e.g. interpreting force diagrams to solve problems)</li>
+    <li>Changing the subject of an equation (e.g. re-arranging the SUVAT equations)</li>
+    <li>Substituting numerical values into algebraic equations (e.g. calculating the acceleration)</li>
+    <li>Plotting two variables from experimental or other data, understanding that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mi>y</mi>
+                            <mo>=</mo>
+                            <mi>m</mi>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>c</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex">y = mx + c</annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span> represents a linear relationship and determining the slope of a linear graph (e.g. verifying Newton’s second law experimentally)</li>
+    <li>Estimating, by graphical methods as appropriate, the area between a curve and the x-axis and realising the physical significance of the area that has been determined (e.g. using a speed–time graph)</li>
 </ul>
 
-<p>What have I studied before?
-• Using a stopwatch to measure times
-• Measuring and calculating the speed of objects
-• Gravity making things fall down, and giving them weight
-• Measuring forces, calculating resultant forces
-• The motion of objects as a result of forces acting on them</p>
-<p>What will I study in this chapter?
-• The definitions of and equations for speed, distance, displacement, time, velocity, acceleration
-• Graphs of motion over time
-• The classification of scalars and vectors
-• Adding and resolving vectors
-• Newton’s laws of motion
-• Kinematics equations
-• Moments (turning forces)</p>
-<p>What will I study later?
-• Kinetic energy and gravitational potential energy
-• Interconverting gravitational potential and kinetic energy
-• Work and power
-• Momentum and the principle of conservation of momentum
-• Wave movements
-• Fluid movements and terminal velocity
-• The meaning and calculation of impulse (A level)</p>
+<p>What have I studied before?</p>
+<li>Using a stopwatch to measure times</li>
+<li>Measuring and calculating the speed of objects</li>
+<li>Gravity making things fall down, and giving them weight</li>
+<li>Measuring forces, calculating resultant forces</li>
+<li>The motion of objects as a result of forces acting on them</li>
+
+<p>What will I study in this chapter?</p>
+<li>The definitions of and equations for speed, distance, displacement, time, velocity, acceleration</li>
+<li>Graphs of motion over time</li>
+<li>The classification of scalars and vectors</li>
+<li>Adding and resolving vectors</li>
+<li>Newton’s laws of motion</li>
+<li>Kinematics equations</li>
+<li>Moments (turning forces)</li>
+
+<p>What will I study later?</p>
+<li>Kinetic energy and gravitational potential energy</li>
+<li>Interconverting gravitational potential and kinetic energy</li>
+<li>Work and power</li>
+<li>Momentum and the principle of conservation of momentum</li>
+<li>Wave movements</li>
+<li>Fluid movements and terminal velocity</li>
+<li>The meaning and calculation of impulse (A level)</li>
 
 <p>Movement is fundamental to the functioning of our universe. Whether you are running to catch a bus or want to calculate the speed needed for a rocket to travel to Mars or the kinetic energy of an electron in an X-ray machine, you need to be able to work out how fast things are moving.</p>
+
 <p><strong>Rate of movement</strong></p>
 <p>One of the simplest things we can measure is how fast an object is moving. You can calculate an object’s <strong>speed</strong> if you know the amount of time taken to move a certain distance:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msup><mtext>speed (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext><mo>=</mo><mfrac><mtext>distance (m)</mtext><mtext>time (s)</mtext></mfrac><mspace linebreak="newline"></mspace><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></mrow><annotation encoding="application/x-tex">
-\text{speed (m s}^{-1}\text{)} = \frac{\text{distance (m)}}{\text{time (s)}} \
-v = \frac{d}{t}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">speed (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">distance (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>
+    <span class="katex-display">
+        <span class="katex">
+            <span class="katex-mathml">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <msup>
+                                <mtext>speed (m s</mtext>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                            <mtext>)</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mtext>distance (m)</mtext>
+                                <mtext>time (s)</mtext>
+                            </mfrac>
+                            <mspace linebreak="newline"></mspace>
+                            <mi>v</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mi>d</mi>
+                                <mi>t</mi>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{speed (m s}^{-1}\text{)} = \frac{\text{distance (m)}}{\text{time (s)}} \
+                            v = \frac{d}{t}
+                        </annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span>
+    </span>
+</p>
+
 <p>However, the calculation for speed will only tell you how fast an object is moving. Often it is also vitally important to know in what direction this movement is taking the object. When you include the direction in the information about the rate of movement of an object, this is then known as the <strong>velocity</strong>. So, the velocity is the rate of change of <strong>displacement</strong>, where the distance in a particular direction is called the ‘displacement’.</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msup><mtext>velocity (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext><mo>=</mo><mfrac><mtext>displacement (m)</mtext><mtext>time (s)</mtext></mfrac><mspace linebreak="newline"></mspace><mi>v</mi><mo>=</mo><mfrac><mi>s</mi><mi>t</mi></mfrac><mspace linebreak="newline"></mspace><mtext>OR</mtext><mspace linebreak="newline"></mspace><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>s</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">
-\text{velocity (m s}^{-1}\text{)} = \frac{\text{displacement (m)}}{\text{time (s)}} \
-v = \frac{s}{t} \
-\text{OR} \
-v = \frac{\Delta s}{\Delta t}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">velocity (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">displacement (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.7936em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord">OR</span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p><strong>fig B</strong> The displacement due north is only 75 m, whilst the actual distance this athlete has run is 300 m. So the velocity due north is much less than the actual speed.</p>
+<p>
+    <span class="katex-display">
+        <span class="katex">
+            <span class="katex-mathml">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <msup>
+                                <mtext>velocity (m s</mtext>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                            <mtext>)</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mtext>displacement (m)</mtext>
+                                <mtext>time (s)</mtext>
+                            </mfrac>
+                            <mspace linebreak="newline"></mspace>
+                            <mi>v</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mi>s</mi>
+                                <mi>t</mi>
+                            </mfrac>
+                            <mspace linebreak="newline"></mspace>
+                            <mtext>OR</mtext>
+                            <mspace linebreak="newline"></mspace>
+                            <mi>v</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>s</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{velocity (m s}^{-1}\text{)} = \frac{\text{displacement (m)}}{\text{time (s)}} \
+                            v = \frac{s}{t} \
+                            \text{OR} \
+                            v = \frac{\Delta s}{\Delta t}
+                        </annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span>
+    </span>
+</p>
+
+<p>
+    <strong>fig B</strong>The displacement due north is only 75 m, whilst the actual distance this athlete has run is 300 m. So the velocity due north is much less than the actual speed.
+</p>
+<p>Image source: <a href="data\images\FigB - Motion - velocity and Acceleration.png">FigB - Motion - velocity and Acceleration</a></p>
+Fig B description
+<strong> Values in the image</strong>
+<li>Displacement due north: 75 m</li>
+<li>Actual distance run: 300 m</li>
+<strong>Meaning of each value</strong>
+<li>Displacement due north: The distance the athlete has moved northward from their starting point.</li>
+<li>Actual distance run: The total distance the athlete has covered, regardless of direction.</li>
+<strong>General ideal of the image</strong>
+<li>The image represents a track and field track with a runner.</li>
+<li>The runner has moved a certain distance northward, but the total distance they have covered is much greater.</li>
+<li>The velocity due north is much less than the actual speed, indicating that the runner is not moving northward at a constant rate.</li>
+
+
 <p><strong>Scalars and vectors</strong></p>
 <p>A quantity for which the direction must be stated is known as a <strong>vector</strong>. If direction is not important, the measurement is referred to as a <strong>scalar</strong> quantity. Therefore, velocity is a vector and speed is a scalar; distance is a scalar and displacement is a vector.</p>
 <p>Scalar and vector quantities are not limited to measurements related to movement. Every measured quantity can be classified as needing to include the direction (vector, e.g. force) or as being sufficiently stated by its magnitude only (scalar, e.g. mass).</p>
 
-<p>Average and instantaneous speed</p>
-<p>In most journeys, it is unlikely that speed will remain constant throughout. As part of her training programme, the athlete in fig A wants to keep a record of her speed for all races. From rest, before the starting gun starts the race, she accelerates to a top speed. However, the race timing will be made from start to finish, and so it is most useful to calculate an average speed over the whole race. <strong>Average speed</strong> is calculated by dividing the total distance for a journey by the total time for the journey. Thus it averages out the slower and faster parts of the journey, and even includes stops.</p>
+<p><strong>Average and instantaneous speed</strong></p>
+<p>In most journeys, it is unlikely that speed will remain constant throughout. As part of her training programme, the athlete in fig B wants to keep a record of her speed for all races. From rest, before the starting gun starts the race, she accelerates to a top speed. However, the race timing will be made from start to finish, and so it is most useful to calculate an average speed over the whole race. <strong>Average speed</strong> is calculated by dividing the total distance for a journey by the total time for the journey. Thus it averages out the slower and faster parts of the journey, and even includes stops.</p>
+
 <p><strong>Instantaneous speed</strong> can be an important quantity, and we will look at how to measure it in the next topic.</p>
 <p> Most speed checks look at instantaneous speed, but CCTV allows police to monitor average speed over a long distance.</p>
 <p>Acceleration</p>
 <p><strong>Acceleration</strong> is defined as the rate of change of velocity. Therefore, it must include the direction in which the speed is changing, and so acceleration is a vector quantity. The equation defining acceleration is:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>v</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>v</mi><mo>−</mo><mi>u</mi></mrow><mi>t</mi></mfrac></mrow><annotation encoding="application/x-tex">
-a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">u</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p>where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">u</span></span></span></span> is the initial velocity and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span> is the final velocity.</p>
+
+<p>
+    <span class="katex-display">
+        <span class="katex">
+            <span class="katex-mathml">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mi>a</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>v</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi>v</mi>
+                                    <mo>−</mo>
+                                    <mi>u</mi>
+                                </mrow>
+                                <mi>t</mi>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}
+                        </annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span>
+    </span>
+</p>
+
+<p>where
+    <span class="katex">
+        <span class="katex-mathml">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>u</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">u</annotation>
+                </semantics>
+            </math>
+        </span>
+    </span> is the initial velocity and
+    <span class="katex">
+        <span class="katex-mathml">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>v</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">v</annotation>
+                </semantics>
+            </math>
+        </span>
+    </span> is the final velocity.
+</p>
 <p>The vector nature of acceleration is very important. One of the consequences is that if an object changes only the direction of its velocity, it is accelerating, <em>whilst remaining at a constant speed</em>. Similarly, deceleration represents a negative change in velocity, and so could be quoted as a negative acceleration.</p>
-<p>Questions</p>
+<p><Strong>Questions</strong></p>
+<p>
+    <strong>fig B</strong>The displacement due north is only 75 m, whilst the actual distance this athlete has run is 300 m. So the velocity due north is much less than the actual speed.
+<p>Image source: <a href="data\images\FigB - Motion - velocity and Acceleration.png">FigB - Motion - velocity and Acceleration</a></p>
+Fig B description
+<strong> Values in the image</strong>
+<li>Displacement due north: 75 m</li>
+<li>Actual distance run: 300 m</li>
+<strong>Meaning of each value</strong>
+<li>Displacement due north: The distance the athlete has moved northward from their starting point.</li>
+<li>Actual distance run: The total distance the athlete has covered, regardless of direction.</li>
+<strong>General ideal of the image</strong>
+<li>The image represents a track and field track with a runner.</li>
+<li>The runner has moved a certain distance northward, but the total distance they have covered is much greater.</li>
+<li>The velocity due north is much less than the actual speed, indicating that the runner is not moving northward at a constant rate.</li>
 <ol>
-<li><p>The athlete in fig A has taken 36 seconds from the start to reach the 300 m mark as shown. Calculate:
-(a) her average speed during this 36 seconds
-(b) her average velocity due north during this 36 seconds
-(c) her average velocity due east during this 36 seconds.</p>
-</li>
-<li><p>A driver in a car travelling at about 25 mph (40.2 km h<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>) sees a cat run onto the road ahead.
-(a) Convert 40.2 km h<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span> into a speed in m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>.
-(b) The car travels 16.5 m whilst the driver is reacting to the danger. What is his reaction time?
-(c) The car comes to a stop in 2.5 s. What is its deceleration?</p>
-</li>
-<li><p>An electron in an X-ray machine is accelerated from rest to half the speed of light in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.7</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>15</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1.7 \times 10^{-15}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.7</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> s. Calculate:
-(a) the speed the electron reaches in m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>
-(b) the acceleration the electron experiences.</p>
-</li>
+    <li>
+        <p>The athlete in fig B has taken 36 seconds from the start to reach the 300 m mark as shown. Calculate:
+            (a) her average speed during this 36 seconds
+            (b) her average velocity due north during this 36 seconds
+            (c) her average velocity due east during this 36 seconds.</p>
+    </li>
+    <li>
+        <p>A driver in a car travelling at about 25 mph (40.2 km h
+            <span class="katex">
+                <span class="katex-mathml">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <semantics>
+                            <mrow>
+                                <msup>
+                                    <mrow></mrow>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                            <annotation encoding="application/x-tex">^{-1}</annotation>
+                        </semantics>
+                    </math>
+                </span>
+            </span>) sees a cat run onto the road ahead.
+            (a) Convert 40.2 km h
+            <span class="katex">
+                <span class="katex-mathml">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <semantics>
+                            <mrow>
+                                <msup>
+                                    <mrow></mrow>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                            <annotation encoding="application/x-tex">^{-1}</annotation>
+                        </semantics>
+                    </math>
+                </span>
+            </span> into a speed in m s
+            <span class="katex">
+                <span class="katex-mathml">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <semantics>
+                            <mrow>
+                                <msup>
+                                    <mrow></mrow>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                            <annotation encoding="application/x-tex">^{-1}</annotation>
+                        </semantics>
+                    </math>
+                </span>
+            </span>.
+            (b) The car travels 16.5 m whilst the driver is reacting to the danger. What is his reaction time?
+            (c) The car comes to a stop in 2.5 s. What is its deceleration?
+        </p>
+    </li>
+    <li>
+        <p>An electron in an X-ray machine is accelerated from rest to half the speed of light in
+            <span class="katex">
+                <span class="katex-mathml">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <semantics>
+                            <mrow>
+                                <mn>1.7</mn>
+                                <mo>×</mo>
+                                <msup>
+                                    <mn>10</mn>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mn>15</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                            <annotation encoding="application/x-tex">1.7 \times 10^{-15}</annotation>
+                        </semantics>
+                    </math>
+                </span>
+            </span> s. Calculate:
+            (a) the speed the electron reaches in m s
+            <span class="katex">
+                <span class="katex-mathml">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <semantics>
+                            <mrow>
+                                <msup>
+                                    <mrow></mrow>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                            <annotation encoding="application/x-tex">^{-1}</annotation>
+                        </semantics>
+                    </math>
+                </span>
+            </span>
+            (b) the acceleration the electron experiences.
+        </p>
+    </li>
 </ol>
 <p>Learning tip</p>
-<p>Whilst accelerations can (very briefly) be extraordinarily high, like that for the electron in question 3(b), no speed or velocity can ever be greater than the speed of light, which is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><annotation encoding="application/x-tex">3 \times 10^8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span> m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>. If you calculate a speed that is higher than this, check your calculation again as it must be wrong.</p>
+<p>Whilst accelerations can (very briefly) be extraordinarily high, like that for the electron in question 3(b), no speed or velocity can ever be greater than the speed of light, which is
+    <span class="katex">
+        <span class="katex-mathml">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>×</mo>
+                        <msup>
+                            <mn>10</mn>
+                            <mn>8</mn>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">3 \times 10^8</annotation>
+                </semantics>
+            </math>
+        </span>
+    </span> m s
+    <span class="katex">
+        <span class="katex-mathml">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <msup>
+                            <mrow></mrow>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">^{-1}</annotation>
+                </semantics>
+            </math>
+        </span>
+    </span>. If you calculate a speed that is higher than this, check your calculation again as it must be wrong.
+</p>
 <p>Key definitions</p>
 <ul>
-<li><p><strong>Speed</strong> is the rate of change of distance.</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msup><mtext>speed (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext><mo>=</mo><mfrac><mtext>distance (m)</mtext><mtext>time (s)</mtext></mfrac></mrow><annotation encoding="application/x-tex">
-\text{speed (m s}^{-1}\text{)} = \frac{\text{distance (m)}}{\text{time (s)}}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">speed (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">distance (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></mrow><annotation encoding="application/x-tex">
-v = \frac{d}{t}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-</li>
-<li><p><strong>Velocity</strong> is the rate of change of displacement.</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msup><mtext>velocity (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext><mo>=</mo><mfrac><mtext>displacement (m)</mtext><mtext>time (s)</mtext></mfrac></mrow><annotation encoding="application/x-tex">
-\text{velocity (m s}^{-1}\text{)} = \frac{\text{displacement (m)}}{\text{time (s)}}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">velocity (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">displacement (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mi>s</mi><mi>t</mi></mfrac><mspace width="1em"/><mtext>OR</mtext><mspace width="1em"/><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>s</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">
-v = \frac{s}{t} \quad \text{OR} \quad v = \frac{\Delta s}{\Delta t}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.7936em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord text"><span class="mord">OR</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-</li>
-<li><p><strong>Displacement</strong> is the vector measurement of distance in a certain direction.</p>
-</li>
-<li><p>A <strong>vector</strong> quantity must have both magnitude and direction.</p>
-</li>
-<li><p>A <strong>scalar</strong> quantity has only magnitude.</p>
-</li>
-<li><p><strong>Average speed</strong> is calculated by dividing the total distance for a journey by the total time for the journey:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msup><mtext>average speed (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext><mo>=</mo><mfrac><mtext>total distance (m)</mtext><mtext>total time (s)</mtext></mfrac></mrow><annotation encoding="application/x-tex">
-\text{average speed (m s}^{-1}\text{)} = \frac{\text{total distance (m)}}{\text{total time (s)}}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">average speed (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">total time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">total distance (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-</li>
-<li><p><strong>Instantaneous speed</strong> is the speed at any particular instant in time on a journey, which can be found from the gradient of the tangent to a distance–time graph (see Section 2.1.2) at that time.</p>
-</li>
-<li><p><strong>Acceleration</strong> is the vector defined as the rate of change of velocity.</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msup><mtext>acceleration (m s</mtext><mrow><mo>−</mo><mn>2</mn></mrow></msup><mtext>)</mtext><mo>=</mo><mfrac><mrow><msup><mtext>change in velocity (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext></mrow><mtext>time taken to change the velocity (s)</mtext></mfrac></mrow><annotation encoding="application/x-tex">
-\text{acceleration (m s}^{-2}\text{)} = \frac{\text{change in velocity (m s}^{-1}\text{)}}{\text{time taken to change the velocity (s)}}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">acceleration (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.567em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.631em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time taken to change the velocity (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord">change in velocity (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi>v</mi><mo>−</mo><mi>u</mi></mrow><mi>t</mi></mfrac><mspace width="1em"/><mtext>OR</mtext><mspace width="1em"/><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>v</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">
-a = \frac{v - u}{t} \quad \text{OR} \quad a = \frac{\Delta v}{\Delta t}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">u</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord text"><span class="mord">OR</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-</li>
+    <li>
+        <p><strong>Speed</strong> is the rate of change of distance.</p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mtext>speed (m s</mtext>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext>)</mtext>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mtext>distance (m)</mtext>
+                                        <mtext>time (s)</mtext>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    \text{speed (m s}^{-1}\text{)} = \frac{\text{distance (m)}}{\text{time (s)}}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <mi>v</mi>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mi>d</mi>
+                                        <mi>t</mi>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    v = \frac{d}{t}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+    </li>
+    <li>
+        <p><strong>Velocity</strong> is the rate of change of displacement.</p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mtext>velocity (m s</mtext>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext>)</mtext>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mtext>displacement (m)</mtext>
+                                        <mtext>time (s)</mtext>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    \text{velocity (m s}^{-1}\text{)} = \frac{\text{displacement (m)}}{\text{time (s)}}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <mi>v</mi>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mi>s</mi>
+                                        <mi>t</mi>
+                                    </mfrac>
+                                    <mspace width="1em" />
+                                    <mtext>OR</mtext>
+                                    <mspace width="1em" />
+                                    <mi>v</mi>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mi mathvariant="normal">Δ</mi>
+                                            <mi>s</mi>
+                                        </mrow>
+                                        <mrow>
+                                            <mi mathvariant="normal">Δ</mi>
+                                            <mi>t</mi>
+                                        </mrow>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    v = \frac{s}{t} \quad \text{OR} \quad v = \frac{\Delta s}{\Delta t}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+    </li>
+    <li>
+        <p><strong>Displacement</strong> is the vector measurement of distance in a certain direction.</p>
+    </li>
+    <li>
+        <p>A <strong>vector</strong> quantity must have both magnitude and direction.</p>
+    </li>
+    <li>
+        <p>A <strong>scalar</strong> quantity has only magnitude.</p>
+    </li>
+    <li>
+        <p>
+            <strong>Average speed</strong> is calculated by dividing the total distance for a journey by the total time for the journey:
+        </p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mtext>average speed (m s</mtext>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext>)</mtext>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mtext>total distance (m)</mtext>
+                                        <mtext>total time (s)</mtext>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    \text{average speed (m s}^{-1}\text{)} = \frac{\text{total distance (m)}}{\text{total time (s)}}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+    </li>
+    <li>
+        <p><strong>Instantaneous speed</strong> is the speed at any particular instant in time on a journey, which can be found from the gradient of the tangent to a distance–time graph (see Section 2.1.2) at that time.</p>
+    </li>
+    <li>
+        <p><strong>Acceleration</strong> is the vector defined as the rate of change of velocity.</p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <msup>
+                                        <mtext>acceleration (m s</mtext>
+                                        <mrow>
+                                            <mo>−</mo>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msup>
+                                    <mtext>)</mtext>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <msup>
+                                                <mtext>change in velocity (m s</mtext>
+                                                <mrow>
+                                                    <mo>−</mo>
+                                                    <mn>1</mn>
+                                                </mrow>
+                                            </msup>
+                                            <mtext>)</mtext>
+                                        </mrow>
+                                        <mtext>time taken to change the velocity (s)</mtext>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    \text{acceleration (m s}^{-2}\text{)} = \frac{\text{change in velocity (m s}^{-1}\text{)}}{\text{time taken to change the velocity (s)}}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="katex-display">
+                <span class="katex">
+                    <span class="katex-mathml">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                            <semantics>
+                                <mrow>
+                                    <mi>a</mi>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mi>v</mi>
+                                            <mo>−</mo>
+                                            <mi>u</mi>
+                                        </mrow>
+                                        <mi>t</mi>
+                                    </mfrac>
+                                    <mspace width="1em" />
+                                    <mtext>OR</mtext>
+                                    <mspace width="1em" />
+                                    <mi>a</mi>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mi mathvariant="normal">Δ</mi>
+                                            <mi>v</mi>
+                                        </mrow>
+                                        <mrow>
+                                            <mi mathvariant="normal">Δ</mi>
+                                            <mi>t</mi>
+                                        </mrow>
+                                    </mfrac>
+                                </mrow>
+                                <annotation encoding="application/x-tex">
+                                    a = \frac{v - u}{t} \quad \text{OR} \quad a = \frac{\Delta v}{\Delta t}
+                                </annotation>
+                            </semantics>
+                        </math>
+                    </span>
+                </span>
+            </span>
+        </p>
+    </li>
 </ul>
 
 <p>By the end of this section, you should be able to...</p>
 <ul>
-<li>interpret displacement–time graphs, velocity–time graphs and acceleration–time graphs</li>
-<li>make calculations from these graphs</li>
-<li>understand the graphical representations of accelerated motion</li>
+    <li>interpret displacement–time graphs, velocity–time graphs and acceleration–time graphs</li>
+    <li>make calculations from these graphs</li>
+    <li>understand the graphical representations of accelerated motion</li>
 </ul>
 <p>One of the best ways to understand the movements of an object whilst on a journey is to plot a graph of the position of the object over time. Such a graph is known as a <strong>displacement–time graph</strong>. A <strong>velocity–time graph</strong> will also provide detail about the movements involved. A velocity–time graph can be produced from direct measurements of the velocity or generated from calculations made using the displacement–time graph.</p>
 <p><strong>Displacement–time graphs</strong></p>
 <p>If we imagine a boating trip on a river, we could monitor the location of the boat over the hour that it has been rented for and plot the displacement–time graph for these movements. Depending on what information we want the graph to offer, it is often simpler to draw a distance–time graph in which the direction of movement is ignored.</p>
-<p>The graphs shown in fig A are examples of plotting position against time, and show how a distance–time graph cannot decrease with time. A displacement–time graph could have parts of it in the negative portions of the y-axis, if the movement went in the opposite direction at some points in time.</p>
-<p>The simplest thing we could find from these graphs is how far an object has moved in a certain time. For example, in fig A, both the graphs show that in the first 15 minutes the boat moved 150 m. Looking at the time from 40 to 48 minutes, both show that the boat travelled 120 m, but the displacement–time graph is in the negative region of the y-axis, showing the boat was moving downriver from the starting point – the opposite direction to the places it had been in the first 40 minutes.</p>
-<p>During the period from 20 to 25 minutes, both graphs have a flat line at a constant value, showing no change in the distance or displacement. This means the boat was not moving – a flat line on a distance–time (d–t) graph means the object is stationary. From 20 to 25 minutes on the velocity–time (v–t) graph of this journey (see fig B) the line would be at a velocity of 0 m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>.</p>
-<p><strong>Speed and velocity from d–t graphs</strong></p>
-<p>The <strong>gradient</strong> of the d–t graphs in fig A will tell us how fast the boat was moving. Gradient is found from the ratio of changes in the y-axis divided by the corresponding change on the x-axis, so:</p>
-<p>For a distance–time graph:
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>gradient</mtext><mo>=</mo><mfrac><mtext>distance (m)</mtext><mtext>time (s)</mtext></mfrac><mo>=</mo><msup><mtext>speed (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext></mrow><annotation encoding="application/x-tex">
-\text{gradient} = \frac{\text{distance (m)}}{\text{time (s)}} = \text{speed (m s}^{-1}\text{)}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">gradient</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">distance (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">speed (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span></span></span></span></span>
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></mrow><annotation encoding="application/x-tex">v = \frac{d}{t}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p>For a displacement–time graph:
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>gradient</mtext><mo>=</mo><mfrac><mtext>displacement (m)</mtext><mtext>time (s)</mtext></mfrac><mo>=</mo><msup><mtext>velocity (m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext>)</mtext></mrow><annotation encoding="application/x-tex">
-\text{gradient} = \frac{\text{displacement (m)}}{\text{time (s)}} = \text{velocity (m s}^{-1}\text{)}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">gradient</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">time (s)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">displacement (m)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord text"><span class="mord">velocity (m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">)</span></span></span></span></span></span>
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>s</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">v = \frac{\Delta s}{\Delta t}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p>fig A A comparison of the displacement–time graph of the boating trip up and down a river with its corresponding distance–time graph.</p>
 
-<p>For example, the first 15 minutes of the boating trip in fig A represents a time of 900 seconds. In this time, the boat travelled 150 m. Its velocity is:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>s</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mn>150</mn><mn>900</mn></mfrac><mo>=</mo><mn>0.167</mn><msup><mtext> m s</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mtext> upriver</mtext></mrow><annotation encoding="application/x-tex"> v = \frac{\Delta s}{\Delta t} = \frac{150}{900} = 0.167 \text{ m s}^{-1} \text{ upriver} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">900</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">150</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0585em;vertical-align:-0.1944em;"></span><span class="mord">0.167</span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> upriver</span></span></span></span></span></span></p>
+<p>The graphs shown in graph A are examples of plotting position against time, and show how a distance–time graph cannot decrease with time. A displacement–time graph could have parts of it in the negative portions of the y-axis, if the movement went in the opposite direction at some points in time.</p>
+
+<p>Graph A : A comparison of the displacement–time graph of the boating trip up and down a river with its corresponding distance–time graph.</p>
+<p>Graph source: <a href="data\images\Graph - Motion - Motion graphs.png">Graph - Motion - Motion graphs</a></p>
+
+<p> Description of the graph </p>
+<p>Values in the graph</p>
+<ol>
+    <li>Distance up river: 600 m</li>
+    <li>Distance down river: 600 m</li>
+    <li>Time up river: 60 minutes</li>
+    <li>Time down river: 60 minutes</li>
+</ol>
+<p>Meaning of each value</p>
+<ol>
+    <li>Distance up river: The total distance traveled up the river.</li>
+    <li>Distance down river: The total distance traveled down the river.</li>
+    <li>Time up river: The total time taken to travel up the river.</li>
+    <li>Time down river: The total time taken to travel down the river.</li>
+</ol>
+<p>General ideal of the graph</p>
+<ol>
+    <li>The image represents a comparison of the displacement–time graph and distance–time graph of a boating trip up and down a river.</li>
+    <li>The displacement–time graph shows the change in position of the boat over time, while the distance–time graph shows the change in distance traveled over time.</li>
+    <li>The graphs show that the boat travels the same distance up and down the river, but the time taken to travel up the river is longer than the time taken to travel down the river.</li>
+</ol>
+
+
+
+<p>During the period from 20 to 25 minutes, both graphs have a flat line at a constant value, showing no change in the distance or displacement. This means the boat was not moving – a flat line on a distance–time (d–t) graph means the object is stationary. From 20 to 25 minutes on the velocity–time (v–t) graph of this journey (see fig B) the line would be at a velocity of 0 m s
+    <span class="katex">
+        <span class="katex-mathml">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <msup>
+                            <mrow></mrow>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">^{-1}</annotation>
+                </semantics>
+            </math>
+        </span>
+    </span>.
+</p>
+<p><strong>Speed and velocity from d–t graphs</strong></p>
+<p>The <strong>gradient</strong> of the d–t graphs in graph A will tell us how fast the boat was moving. Gradient is found from the ratio of changes in the y-axis divided by the corresponding change on the x-axis, so:</p>
+<p>For a distance–time graph:
+    <span class="katex-display">
+        <span class="katex">
+            <span class="katex-mathml">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>gradient</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mtext>distance (m)</mtext>
+                                <mtext>time (s)</mtext>
+                            </mfrac>
+                            <mo>=</mo>
+                            <msup>
+                                <mtext>speed (m s</mtext>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                            <mtext>)</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{gradient} = \frac{\text{distance (m)}}{\text{time (s)}} = \text{speed (m s}^{-1}\text{)}
+                        </annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span>
+        <span class="katex-display">
+            <span class="katex">
+                <span class="katex-mathml">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>v</mi>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mi>d</mi>
+                                    <mi>t</mi>
+                                </mfrac>
+                            </mrow>
+                            <annotation encoding="application/x-tex">v = \frac{d}{t}</annotation>
+                        </semantics>
+                    </math>
+                </span>
+            </span>
+        </span>
+    </span>
+</p>
+<p>For a displacement–time graph:
+    <span class="katex-display">
+        <span class="katex">
+            <span class="katex-mathml">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>gradient</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mtext>displacement (m)</mtext>
+                                <mtext>time (s)</mtext>
+                            </mfrac>
+                            <mo>=</mo>
+                            <msup>
+                                <mtext>velocity (m s</mtext>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                            <mtext>)</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{gradient} = \frac{\text{displacement (m)}}{\text{time (s)}} = \text{velocity (m s}^{-1}\text{)}
+                        </annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span>
+    </span>
+    <span class="katex-display">
+        <span class="katex">
+            <span class="katex-mathml">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mi>v</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>s</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex">v = \frac{\Delta s}{\Delta t}</annotation>
+                    </semantics>
+                </math>
+            </span>
+        </span>
+    </span>
+</p>
+
+
+<p>For example, the first 15 minutes of the boating trip in graph A represents a time of 900 seconds. In this time, the boat travelled 150 m. Its velocity is:</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mi>v</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>s</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mn>150</mn>
+                                <mn>900</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mn>0.167</mn>
+                            <msup>
+                                <mtext> m s</mtext>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                            <mtext> upriver</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> v = \frac{\Delta s}{\Delta t} = \frac{150}{900} = 0.167 \text{ m s}^{-1} \text{ upriver} </annotation>
+                    </semantics>
+                </math></span></span></span></p>
 <p><strong>Velocity–time graphs</strong></p>
-<p>A velocity–time graph will show the velocity of an object over time. We calculated that the velocity of the boat on the river was 0.167 m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span> upriver for the first 15 minutes of the journey. Looking at the graph in fig B, you can see that the line is constant at +0.167 m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">^{-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span> for the first 15 minutes.</p>
-<p>Also notice that the velocity axis includes negative values, so that the difference between travelling upriver (positive <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>-axis values) and downriver (negative <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>-axis values) can be represented.</p>
+<p>A velocity–time graph will show the velocity of an object over time. We calculated that the velocity of the boat on the river was 0.167 m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <msup>
+                            <mrow></mrow>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">^{-1}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span> upriver for the first 15 minutes of the journey. Looking at the graph in fig B, you can see that the line is constant at +0.167 m s<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <msup>
+                            <mrow></mrow>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">^{-1}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span> for the first 15 minutes.</p>
+<p>Also notice that the velocity axis includes negative values, so that the difference between travelling upriver (positive <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>y</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">y</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>-axis values) and downriver (negative <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>y</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">y</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>-axis values) can be represented.</p>
 <p></p>
-<p><strong>Acceleration from <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>–</mtext><mi>t</mi></mrow><annotation encoding="application/x-tex">–t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graphs</strong></p>
+<p><strong>Acceleration from <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mi>v</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex">v</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mtext>–</mtext>
+                            <mi>t</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex">–t</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graphs</strong></p>
 <p>Acceleration is defined as the rate of change in velocity.</p>
-<p>In order to calculate the gradient of the line on a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>–</mtext><mi>t</mi></mrow><annotation encoding="application/x-tex">–t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graph, we must divide a change in velocity by the corresponding time difference. This exactly matches with the equation for acceleration:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>gradient</mtext><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>v</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>v</mi><mo>−</mo><mi>u</mi></mrow><mi>t</mi></mfrac><mo>=</mo><mtext>acceleration</mtext></mrow><annotation encoding="application/x-tex"> \text{gradient} = \frac{\Delta v}{\Delta t} = \frac{v - u}{t} = \text{acceleration} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">gradient</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">u</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord text"><span class="mord">acceleration</span></span></span></span></span></span></p>
+<p>In order to calculate the gradient of the line on a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>v</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">v</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mtext>–</mtext>
+                        <mi>t</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">–t</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graph, we must divide a change in velocity by the corresponding time difference. This exactly matches with the equation for acceleration:</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>gradient</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>v</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi>v</mi>
+                                    <mo>−</mo>
+                                    <mi>u</mi>
+                                </mrow>
+                                <mi>t</mi>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mtext>acceleration</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> \text{gradient} = \frac{\Delta v}{\Delta t} = \frac{v - u}{t} = \text{acceleration} </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">gradient</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">u</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord text"><span class="mord">acceleration</span></span></span></span></span></span></p>
 <p>For example, between 15 and 20 minutes on the graphs, the boat slows evenly to a stop. The acceleration here can be calculated as the gradient:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>gradient</mtext><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>v</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>v</mi><mo>−</mo><mi>u</mi></mrow><mi>t</mi></mfrac><mo>=</mo><mfrac><mrow><mn>0</mn><mo>−</mo><mn>0.167</mn></mrow><mrow><mn>5</mn><mo>×</mo><mn>60</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><mn>0.167</mn></mrow><mn>300</mn></mfrac><mo>=</mo><mo>−</mo><mn>0.0006</mn><msup><mtext> m s</mtext><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex"> \text{gradient} = \frac{\Delta v}{\Delta t} = \frac{v - u}{t} = \frac{0 - 0.167}{5 \times 60} = \frac{-0.167}{300} = -0.0006 \text{ m s}^{-2} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">gradient</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">u</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">60</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">0.167</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">300</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord">0.167</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">0.0006</span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></span></p>
-<p>So the acceleration is: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><mo>−</mo><mn>0.6</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><msup><mtext> m s</mtext><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">a = -0.6 \times 10^{-3} \text{ m s}^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">0.6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>.</p>
-<p><strong>Distance travelled from <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>–</mtext><mi>t</mi></mrow><annotation encoding="application/x-tex">–t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graphs</strong></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>gradient</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>v</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi mathvariant="normal">Δ</mi>
+                                    <mi>t</mi>
+                                </mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mi>v</mi>
+                                    <mo>−</mo>
+                                    <mi>u</mi>
+                                </mrow>
+                                <mi>t</mi>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mn>0</mn>
+                                    <mo>−</mo>
+                                    <mn>0.167</mn>
+                                </mrow>
+                                <mrow>
+                                    <mn>5</mn>
+                                    <mo>×</mo>
+                                    <mn>60</mn>
+                                </mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>0.167</mn>
+                                </mrow>
+                                <mn>300</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mo>−</mo>
+                            <mn>0.0006</mn>
+                            <msup>
+                                <mtext> m s</mtext>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>2</mn>
+                                </mrow>
+                            </msup>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> \text{gradient} = \frac{\Delta v}{\Delta t} = \frac{v - u}{t} = \frac{0 - 0.167}{5 \times 60} = \frac{-0.167}{300} = -0.0006 \text{ m s}^{-2} </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord">gradient</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">u</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">60</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">0.167</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">300</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord">0.167</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">0.0006</span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>So the acceleration is: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mo>−</mo>
+                        <mn>0.6</mn>
+                        <mo>×</mo>
+                        <msup>
+                            <mn>10</mn>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>3</mn>
+                            </mrow>
+                        </msup>
+                        <msup>
+                            <mtext> m s</mtext>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex">a = -0.6 \times 10^{-3} \text{ m s}^{-2}</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">0.6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>.</p>
+<p><strong>Distance travelled from <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mi>v</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex">v</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <semantics>
+                        <mrow>
+                            <mtext>–</mtext>
+                            <mi>t</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex">–t</annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graphs</strong></p>
 <p>Speed is defined as the rate of change in distance:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mi>d</mi><mi>t</mi></mfrac></mrow><annotation encoding="application/x-tex"> v = \frac{d}{t} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo>∴</mo><mi>d</mi><mo>=</mo><mi>v</mi><mo>×</mo><mi>t</mi></mrow><annotation encoding="application/x-tex"> \therefore d = v \times t </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6922em;"></span><span class="mrel amsrm">∴</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span></span></p>
-<p>As the axes on the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>–</mtext><mi>t</mi></mrow><annotation encoding="application/x-tex">–t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graph represent velocity and time, an area on the graph represents the multiplication of velocity <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">×</span></span></span></span> time, which gives distance. So to find the distance travelled from a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>–</mtext><mi>t</mi></mrow><annotation encoding="application/x-tex">–t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graph, find the area between the line and the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>-axis.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mi>v</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mi>d</mi>
+                                <mi>t</mi>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> v = \frac{d}{t} </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mo>∴</mo>
+                            <mi>d</mi>
+                            <mo>=</mo>
+                            <mi>v</mi>
+                            <mo>×</mo>
+                            <mi>t</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> \therefore d = v \times t </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6922em;"></span><span class="mrel amsrm">∴</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span></span></p>
+<p>As the axes on the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>v</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">v</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mtext>–</mtext>
+                        <mi>t</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">–t</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graph represent velocity and time, an area on the graph represents the multiplication of velocity <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mo>×</mo>
+                    </mrow>
+                    <annotation encoding="application/x-tex">\times</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">×</span></span></span></span> time, which gives distance. So to find the distance travelled from a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>v</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">v</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mtext>–</mtext>
+                        <mi>t</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">–t</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord">–</span><span class="mord mathnormal">t</span></span></span></span> graph, find the area between the line and the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">x</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>-axis.</p>
 <p></p>
 <p>If we are only interested in finding the distance moved, this also works for a negative velocity. You find the area from the line up to the time axis. This idea will still work for a changing velocity. Find the area under the line and you have found the distance travelled.</p>
-<p>For example, from 0 to 20 minutes, the area under the line, all the way down to the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>-axis, is a trapezium, so we need to find that area. To calculate the whole distance travelled in the journey for the first 40 minutes, we would have to find the areas under the four separate stages (0–15 minutes; 15–20 minutes; 20–25 minutes; and 25–40 minutes) and then add these four answers together.</p>
+<p>For example, from 0 to 20 minutes, the area under the line, all the way down to the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex">x</annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>-axis, is a trapezium, so we need to find that area. To calculate the whole distance travelled in the journey for the first 40 minutes, we would have to find the areas under the four separate stages (0–15 minutes; 15–20 minutes; 20–25 minutes; and 25–40 minutes) and then add these four answers together.</p>
 
 <p>Investigation</p>
 <p>Finding the acceleration due to gravity by multiframe photography</p>
 <p>Using a multiframe photography technique, or a video recording that can be played back frame by frame, we can observe the falling motion of a small object such as a marble. We need to know the time between frames.</p>
 <p>From each image of the falling object, measure the distance it has fallen from the scale in the picture. A carefully drawn distance–time graph will show a curve as the object accelerates. From this curve, take regular measurements of the gradient by drawing tangents to the curve. These gradients show the instantaneous speed at each point on the curve.</p>
-<p>Plotting these speeds on a velocity–time graph should show a straight line, as the acceleration due to gravity is a constant value. The gradient of the line on this v–t graph will be the acceleration due to gravity, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex"> g </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span>.</p>
+<p>Plotting these speeds on a velocity–time graph should show a straight line, as the acceleration due to gravity is a constant value. The gradient of the line on this v–t graph will be the acceleration due to gravity, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>g</mi>
+                    </mrow>
+                    <annotation encoding="application/x-tex"> g </annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span>.</p>
 <p>Acceleration–time graphs</p>
-<p>These graphs show how the acceleration of an object changes over time. In many instances the acceleration is zero or a constant value, in which case an acceleration–time (a–t) graph is likely to be of relatively little interest. For example, the object falling in our investigation above will be accelerated by gravity throughout. Assuming it is relatively small, air resistance will be negligible, and the a–t graph of its motion would be a horizontal line at <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><mo>−</mo><mn>9.81</mn><msup><mtext> m s</mtext><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex"> a = -9.81 \text{ m s}^{-2} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">9.81</span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>. Compare this with your results to see how realistic it is to ignore air resistance.</p>
+<p>These graphs show how the acceleration of an object changes over time. In many instances the acceleration is zero or a constant value, in which case an acceleration–time (a–t) graph is likely to be of relatively little interest. For example, the object falling in our investigation above will be accelerated by gravity throughout. Assuming it is relatively small, air resistance will be negligible, and the a–t graph of its motion would be a horizontal line at <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mo>−</mo>
+                        <mn>9.81</mn>
+                        <msup>
+                            <mtext> m s</mtext>
+                            <mrow>
+                                <mo>−</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </msup>
+                    </mrow>
+                    <annotation encoding="application/x-tex"> a = -9.81 \text{ m s}^{-2} </annotation>
+                </semantics>
+            </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">9.81</span><span class="mord"><span class="mord text"><span class="mord"> m s</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>. Compare this with your results to see how realistic it is to ignore air resistance.</p>
 <p>For a larger object falling for a long period, such as a skydiver, then the acceleration will change over time as the air resistance increases with speed. The weight of a skydiver is constant, so the resultant force will be decreasing throughout, meaning that the acceleration will also reduce (see Section 1.1.5). The curve would look like that in fig E.</p>
 <p>See Section 4.1.4 for more details on falling objects and terminal velocity.</p>
 <p>Questions</p>
 <ol>
-<li>Describe in as much detail as you can, including calculated values, what happens in the bicycle journey shown on the d–t graph in fig F.</li>
+    <li>Describe in as much detail as you can, including calculated values, what happens in the bicycle journey shown on the d–t graph in fig F.</li>
 </ol>
 <p></p>
 <p>fig F Distance-time graph of a bike journey.</p>
 <ol start="2">
-<li>Describe in as much detail as you can, including calculated values, what happens in the car journey shown on the v–t graph in fig G.</li>
+    <li>Describe in as much detail as you can, including calculated values, what happens in the car journey shown on the v–t graph in fig G.</li>
 </ol>
 <p></p>
 <p>fig G Velocity-time graph of a car journey.</p>
 <ol start="3">
-<li>From fig B, calculate the distance travelled by the boat from 40 to 60 minutes.</li>
+    <li>From fig B, calculate the distance travelled by the boat from 40 to 60 minutes.</li>
 </ol>
 <p>Learning tip</p>
 <p>Remember that the gradient of a distance–time graph represents speed or velocity, so if the line is curved, the changing gradient indicates a changing speed, which you can describe as the same as the changes in gradient.</p>
@@ -207,8 +1229,8 @@ a = \frac{v - u}{t} \quad \text{OR} \quad a = \frac{\Delta v}{\Delta t}
 
 <p>By the end of this section, you should be able to...</p>
 <ul>
-<li>add two or more vectors by drawing</li>
-<li>add two perpendicular vectors by calculation</li>
+    <li>add two or more vectors by drawing</li>
+    <li>add two perpendicular vectors by calculation</li>
 </ul>
 <p>Forces are vectors. This means that measuring their magnitude is important, but equally important is knowing the direction in which they act. In order to calculate the overall effect of multiple forces acting on the same object, we can use vector addition to work out the resultant force. This resultant force can be considered as a single force that has the same effect as all the individual forces combined.</p>
 <p><strong>Adding forces in the same line</strong></p>
@@ -223,7 +1245,34 @@ a = \frac{v - u}{t} \quad \text{OR} \quad a = \frac{\Delta v}{\Delta t}
 <p>To calculate the resultant magnitude of two perpendicular forces, we can draw them, one after the other, as the two sides of a right-angled triangle and use Pythagoras’ theorem to calculate the size of the hypotenuse.</p>
 <p></p>
 <p>The resultant force here is calculated using Pythagoras’ theorem:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>F</mi><mo>=</mo><msqrt><mrow><mo stretchy="false">(</mo><msup><mn>70</mn><mn>2</mn></msup><mo>+</mo><msup><mn>110</mn><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></msqrt><mo>=</mo><mn>130</mn><mtext> N</mtext></mrow><annotation encoding="application/x-tex"> F = \sqrt{(70^2 + 110^2)} = 130 \text{ N} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.24em;vertical-align:-0.2561em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9839em;"><span class="svg-align" style="top:-3.2em;"><span class="pstrut" style="height:3.2em;"></span><span class="mord" style="padding-left:1em;"><span class="mopen">(</span><span class="mord">7</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">11</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-2.9439em;"><span class="pstrut" style="height:3.2em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.28em;"><svg xmlns="http://www.w3.org/2000/svg" width="400em" height="1.28em" viewBox="0 0 400000 1296" preserveAspectRatio="xMinYMin slice"><path d="M263,681c0.7,0,18,39.7,52,119
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mi>F</mi>
+                            <mo>=</mo>
+                            <msqrt>
+                                <mrow>
+                                    <mo stretchy="false">(</mo>
+                                    <msup>
+                                        <mn>70</mn>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mo>+</mo>
+                                    <msup>
+                                        <mn>110</mn>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mo stretchy="false">)</mo>
+                                </mrow>
+                            </msqrt>
+                            <mo>=</mo>
+                            <mn>130</mn>
+                            <mtext> N</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> F = \sqrt{(70^2 + 110^2)} = 130 \text{ N} </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.24em;vertical-align:-0.2561em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9839em;"><span class="svg-align" style="top:-3.2em;"><span class="pstrut" style="height:3.2em;"></span><span class="mord" style="padding-left:1em;"><span class="mopen">(</span><span class="mord">7</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">11</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-2.9439em;"><span class="pstrut" style="height:3.2em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.28em;"><svg xmlns="http://www.w3.org/2000/svg" width="400em" height="1.28em" viewBox="0 0 400000 1296" preserveAspectRatio="xMinYMin slice">
+                                                <path d="M263,681c0.7,0,18,39.7,52,119
 c34,79.3,68.167,158.7,102.5,238c34.3,79.3,51.8,119.3,52.5,120
 c340,-704.7,510.7,-1060.3,512,-1067
 l0 -0
@@ -233,12 +1282,44 @@ s-271.3,567,-271.3,567c-38.7,80.7,-84,175,-136,283c-52,108,-89.167,185.3,-111.5,
 c-22.3,46.7,-33.8,70.3,-34.5,71c-4.7,4.7,-12.3,7,-23,7s-12,-1,-12,-1
 s-109,-253,-109,-253c-72.7,-168,-109.3,-252,-110,-252c-10.7,8,-22,16.7,-34,26
 c-22,17.3,-33.3,26,-34,26s-26,-26,-26,-26s76,-59,76,-59s76,-60,76,-60z
-M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2561em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">130</span><span class="mord text"><span class="mord"> N</span></span></span></span></span></span></p>
+M1001 80h400000v40h-400000z" />
+                                            </svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2561em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">130</span><span class="mord text"><span class="mord"> N</span></span></span></span></span></span></p>
 <p><strong>Direction of the resultant force</strong></p>
 <p>As forces are vectors, when we find a resultant force it must have both magnitude and direction. For perpendicular forces (vectors), trigonometry will determine the direction.</p>
 <p></p>
 <p>The resultant force here is at an angle up from the horizontal of:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>θ</mi><mo>=</mo><msup><mrow><mi>tan</mi><mo>⁡</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo fence="true">(</mo><mfrac><mn>70</mn><mn>110</mn></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><msup><mn>32</mn><mo>∘</mo></msup></mrow><annotation encoding="application/x-tex"> \theta = \tan^{-1}\left(\frac{70}{110}\right) = 32^\circ </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mop"><span class="mop">tan</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">110</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">70</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7241em;"></span><span class="mord">3</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7241em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mi>θ</mi>
+                            <mo>=</mo>
+                            <msup>
+                                <mrow>
+                                    <mi>tan</mi>
+                                    <mo>⁡</mo>
+                                </mrow>
+                                <mrow>
+                                    <mo>−</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                            <mrow>
+                                <mo fence="true">(</mo>
+                                <mfrac>
+                                    <mn>70</mn>
+                                    <mn>110</mn>
+                                </mfrac>
+                                <mo fence="true">)</mo>
+                            </mrow>
+                            <mo>=</mo>
+                            <msup>
+                                <mn>32</mn>
+                                <mo>∘</mo>
+                            </msup>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> \theta = \tan^{-1}\left(\frac{70}{110}\right) = 32^\circ </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mop"><span class="mop">tan</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">110</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">70</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7241em;"></span><span class="mord">3</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7241em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span></span></span></span></span></p>
 <p><strong>Learning tip</strong></p>
 <p>Always take care to state where the angle for a vector’s direction is measured. For example, in fig D, the angle should be stated as 32° up from the horizontal. This is most easily expressed on a diagram of the situation, where you draw in the angle.</p>
 <p><strong>Adding two non-perpendicular forces</strong></p>
@@ -255,23 +1336,28 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 <p>If we clarify what forces are acting on an object, it can be simpler to calculate how it will move. To do this, we usually draw a free-body force diagram, which has the object isolated, and all the forces that act on it drawn in at the points where they act. Forces acting on other objects, and those other objects, are not drawn. For example, fig G could be said to be a free-body force diagram of the rugby player being tackled in fig B, and this would lead us to draw fig C and fig D to make our resultant calculations.</p>
 <p><strong>Questions</strong></p>
 <ol>
-<li><p>Work out the resultant force on a toy car if it has the following forces acting on it:</p>
-<ul>
-<li>rubber band motor driving forwards 8.4 N</li>
-<li>air resistance 0.5 N</li>
-<li>friction 5.8 N</li>
-<li>child’s hand pushing forward 10 N.</li>
-</ul>
-</li>
-<li><p>As a small plane takes off, the lift force on it is 6000 N vertically upwards, whilst the thrust is 2800 N horizontally forwards. What is the resultant of these forces on the plane?</p>
-</li>
-<li><p>Draw a free-body force diagram of yourself sitting on your chair.</p>
-</li>
-<li><p>(a) Draw the scale diagram of fig E, and work out what the resultant force would be.
- (b) Use the parallelogram rule, as in fig F, to check your answer to part (a).</p>
-</li>
-<li><p>In order to try and recover a car stuck in a muddy field, two tractors pull on it. The first acts at an angle of 20° left of the forwards direction with a force of 2250 N. The second acts 15° to the right of the forwards direction with a force of 2000 N. Draw a scale diagram of the situation and find the resultant force on the stuck car.</p>
-</li>
+    <li>
+        <p>Work out the resultant force on a toy car if it has the following forces acting on it:</p>
+        <ul>
+            <li>rubber band motor driving forwards 8.4 N</li>
+            <li>air resistance 0.5 N</li>
+            <li>friction 5.8 N</li>
+            <li>child’s hand pushing forward 10 N.</li>
+        </ul>
+    </li>
+    <li>
+        <p>As a small plane takes off, the lift force on it is 6000 N vertically upwards, whilst the thrust is 2800 N horizontally forwards. What is the resultant of these forces on the plane?</p>
+    </li>
+    <li>
+        <p>Draw a free-body force diagram of yourself sitting on your chair.</p>
+    </li>
+    <li>
+        <p>(a) Draw the scale diagram of fig E, and work out what the resultant force would be.
+            (b) Use the parallelogram rule, as in fig F, to check your answer to part (a).</p>
+    </li>
+    <li>
+        <p>In order to try and recover a car stuck in a muddy field, two tractors pull on it. The first acts at an angle of 20° left of the forwards direction with a force of 2250 N. The second acts 15° to the right of the forwards direction with a force of 2000 N. Draw a scale diagram of the situation and find the resultant force on the stuck car.</p>
+    </li>
 </ol>
 <p><strong>Key definitions</strong></p>
 <p>Resultant force is the total force (vector sum) acting on a body when all the forces acting are added together accounting for their directions.</p>
@@ -279,21 +1365,42 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 
 <p>By the end of this section, you should be able to...</p>
 <ul>
-<li>calculate the moment of a force</li>
-<li>apply the principle of moments</li>
-<li>find the centre of gravity of an object</li>
+    <li>calculate the moment of a force</li>
+    <li>apply the principle of moments</li>
+    <li>find the centre of gravity of an object</li>
 </ul>
 <p>Forces on an object could act so that the object does not start to move along, but instead rotates about a fixed pivot. If the object is fixed so that it cannot rotate, it will bend.</p>
 <p><strong>Moment of a force</strong></p>
 <p>![Diagram showing a force acting on a beam fixed at a point. The moment of a force causes rotation or, in this case, bending.]</p>
 <p><strong>fig A</strong> A force acts on a beam fixed at a point. The moment of a force causes rotation or, in this case, bending.</p>
 <p>The tendency to cause rotation is called the moment of a force. It is calculated from:</p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>moment (Nm)</mtext><mo>=</mo><mtext>force (N)</mtext><mo>×</mo><mtext>perpendicular distance from the pivot to the line of action of the force (m)</mtext></mrow><annotation encoding="application/x-tex">
-\text{moment (Nm)} = \text{force (N)} \times \text{perpendicular distance from the pivot to the line of action of the force (m)}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">moment (Nm)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">force (N)</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">perpendicular distance from the pivot to the line of action of the force (m)</span></span></span></span></span></span></p>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>moment</mtext><mo>=</mo><mi>F</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">
-\text{moment} = Fx
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord text"><span class="mord">moment</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">x</span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>moment (Nm)</mtext>
+                            <mo>=</mo>
+                            <mtext>force (N)</mtext>
+                            <mo>×</mo>
+                            <mtext>perpendicular distance from the pivot to the line of action of the force (m)</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{moment (Nm)} = \text{force (N)} \times \text{perpendicular distance from the pivot to the line of action of the force (m)}
+                        </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">moment (Nm)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">force (N)</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">perpendicular distance from the pivot to the line of action of the force (m)</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                    <semantics>
+                        <mrow>
+                            <mtext>moment</mtext>
+                            <mo>=</mo>
+                            <mi>F</mi>
+                            <mi>x</mi>
+                        </mrow>
+                        <annotation encoding="application/x-tex">
+                            \text{moment} = Fx
+                        </annotation>
+                    </semantics>
+                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord text"><span class="mord">moment</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">x</span></span></span></span></span></p>
 <p>![Diagram showing the calculation of moment only considers the perpendicular distance between the line of action of the force and the axis of rotation, through the pivot point. When free to rotate, a body will turn in the direction of any net moment.]</p>
 <p><strong>fig B</strong> The calculation of moment only considers the perpendicular distance between the line of action of the force and the axis of rotation, through the pivot point. When free to rotate, a body will turn in the direction of any net moment.</p>
 <p><strong>Principle of moments</strong></p>
@@ -303,4 +1410,3 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 <p>The <strong>principle of moments</strong> tells us that if the total of all the moments trying to turn an object clockwise is equal to the total of all moments trying to turn an object anticlockwise, then it will be in rotational equilibrium. This means it will either remain stationary, or if it is already rotating it will continue at the same speed in the same direction.</p>
 <p>![Diagram showing a metre-long beam balanced with weights W1, W0, and W2.]</p>
 <p><strong>fig D</strong> As the metre-long beam is balanced, the sum of all the clockwise moments must equal the sum of all the anticlockwise moments.</p>
-

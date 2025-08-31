@@ -20,7 +20,7 @@ collection = db["learning_materials"]
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 #Ollama API endpoint
-OLLAMA_API_URI = 'http://localhost:1143/api/generate'
+OLLAMA_API_URI = 'http://localhost:11434/api/generate'
 
 def query_faiss_index(query, top_k =5):
     """Query the FAISS index to reterieve top_k relevant text chunks"""
@@ -66,37 +66,44 @@ def query_ollama(prompt, model_name='mistral'):
 
 def generate_topic_introduction(topic):
     """Generate a topic introduction using reterived chunks as context"""
-    chunks = query_faiss_index(topic, top_k =5)
+    chunks = query_faiss_index(topic, top_k =1)
     if not chunks:
         return "No relevant information found for this topic."
+    
+    print(f"Reterived {len(chunks)} chunks for topic '{topic}'")
+    # for i, chunk in enumerate(chunks):
+    #     print(f"Chunk {i+1} (Distance: {chunk['distance']:.4f}): {chunk['text'][:500]}...")
 
     context = "\n".join([chunk['text'] for chunk in chunks])
-    prompt = f"""**Task:** Generate a strictly concise introduction (100-150 words) for `{topic}` using the provided context.  
-                    **Key Requirements:**  
-                    1. **MathML Handling:** Ignore all mathematical equations and formulae (any <math> tags). Extract only conceptual insights from surrounding text.  
-                    2. **HTML Processing:** Parse and distill key ideas from HTML content, discarding markup while preserving semantic meaning.  
-                    3. **Introduction Style:**  
-                       - First sentence must hook with broad relevance  
-                       - Use intuitive analogies/plain language (NO technical jargon)  
-                       - Explain "why it matters" before "what it is"  
-                       - Exclude all mathematical notations/symbols  
-                    4. **Structure:**  
-                       - Opening impact statement → Core concept → Real-world significance → Practical applications  
-                       - Maintain neutral, authoritative tone  
+    prompt = f"""
+    You are an expert educational content creator 
+    you have to respond with an API respomse to an API call to generate a concise introduction for a given topic based on the provided context.
+    for the topic: "{topic}"
+    use the following guidelines for your response:
+    1. **HTML Processing:** Parse and distill key ideas from HTML content, discarding markup while preserving semantic meaning.  
+    2. **Introduction Style:**  
+       - keep the introduction academic and informative
+       - Avoid conversational or casual tones
+       - Avoid highly creative or narrative styles
+    3. **Structure:**  
+       - Brief introduction → Core concept that will be learnt → Practical applications  
+       - Maintain an academic tone throughout  
 
-                    **Context:**  
-                    {context}
+    **Context:**  
+    {context}
 
-                    **Output Instructions:**  
-                    - Word count: 110 ± 10 words  
-                    - First/last sentences must be memorable and self-contained  
-                    - Every claim must derive from context, with NO external knowledge  
-                    - Use active voice and avoid passive constructions  
-                    """
+    **Output Instructions:**  
+    - Use HTML format for the respose
+    - use <span class="katex-mathml"> for any math expressions if required in the response
+    - Every claim must derive from context, with NO external knowledge or words to be added  
+    - Ensure clarity and conciseness 
+    """
 
     response = query_ollama(prompt)
     if not response:
         return []
+    else:
+        return response
 
 if __name__ == "__main__":
     #example usage of testing 
