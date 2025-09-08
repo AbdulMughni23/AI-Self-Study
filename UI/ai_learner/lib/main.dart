@@ -1,122 +1,282 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'dart:convert';
+import 'api_service.dart';
+import 'models.dart';
+import 'chat_messages.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(RAGLearningApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class RAGLearningApp extends StatelessWidget {
+  const RAGLearningApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'RAG Learning System',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.grey[100],
+        fontFamily: 'Roboto',
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: ChatScreen(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
+class ChatScreen extends StatefulWidget {
+  const ChatScreen({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  _ChatScreenState createState() => _ChatScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+class _ChatScreenState extends State<ChatScreen> {
+  final ApiService _apiService = ApiService();
+  final TextEditingController _controller = TextEditingController();
+  final ScrollController _scrollController = ScrollController();
+  List<ChatMessage> _messages = [];
+  List<ChatHistory> _chatHistories = [];
+  String? _selectedTopic;
+  bool _isLoading = false;
+  String? _errorMessage;
+  String? _currentChatId;
 
-  void _incrementCounter() {
+  final List<String> _topics = [
+    'Motion',
+    'Energy',
+    'Momentum',
+  ]; // Hardcoded topics
+
+  @override
+  void initState() {
+    super.initState();
+    _loadChatHistories();
+  }
+
+  Future<void> _loadChatHistories() async {
+    final prefs = await SharedPreferences.getInstance();
+    final historiesJson = prefs.getString('chat_histories');
+    if (historiesJson != null) {
+      final List<dynamic> decoded = jsonDecode(historiesJson);
+      setState(() {
+        _chatHistories = decoded
+            .map((json) => ChatHistory.fromJson(json))
+            .toList();
+      });
+    }
+  }
+
+  Future<void> _saveChatHistories() async {
+    final prefs = await SharedPreferences.getInstance();
+    final historiesJson = jsonEncode(
+      _chatHistories.map((h) => h.toJson()).toList(),
+    );
+    await prefs.setString('chat_histories', historiesJson);
+  }
+
+  void _startNewChat(String topic) {
+    final newChat = ChatHistory(
+      id: DateTime.now().millisecondsSinceEpoch.toString(),
+      topic: topic,
+      messages: [],
+      timestamp: DateTime.now(),
+    );
     setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
+      _chatHistories.add(newChat);
+      _currentChatId = newChat.id;
+      _messages = [];
+      _selectedTopic = topic;
+      _errorMessage = null;
+    });
+    _saveChatHistories();
+    _getInitialResponse(topic);
+  }
+
+  void _loadChat(String chatId) {
+    final chat = _chatHistories.firstWhere((h) => h.id == chatId);
+    setState(() {
+      _currentChatId = chatId;
+      _messages = chat.messages;
+      _selectedTopic = chat.topic;
+      _errorMessage = null;
+    });
+    _scrollToBottom();
+  }
+
+  Future<void> _getInitialResponse(String topic) async {
+    setState(() {
+      _isLoading = true;
+      _errorMessage = null;
+    });
+    try {
+      final response = await _apiService.getTopicResponse(topic);
+      _addMessage(ChatMessage(content: response, isUser: false));
+    } catch (e) {
+      setState(() {
+        _errorMessage = 'Failed to connect to backend: $e';
+      });
+    } finally {
+      setState(() {
+        _isLoading = false;
+      });
+      _scrollToBottom();
+    }
+  }
+
+  Future<void> _sendMessage() async {
+    if (_controller.text.isEmpty || _selectedTopic == null) return;
+
+    final userMessage = _controller.text;
+    _addMessage(ChatMessage(content: userMessage, isUser: true));
+    _controller.clear();
+
+    setState(() {
+      _isLoading = true;
+      _errorMessage = null;
+    });
+
+    try {
+      final response = await _apiService.getAiResponse(
+        userMessage,
+        _selectedTopic!,
+      );
+      _addMessage(ChatMessage(content: response, isUser: false));
+    } catch (e) {
+      setState(() {
+        _errorMessage = 'Failed to connect to backend: $e';
+      });
+    } finally {
+      setState(() {
+        _isLoading = false;
+      });
+      _scrollToBottom();
+    }
+  }
+
+  void _addMessage(ChatMessage message) {
+    setState(() {
+      _messages.add(message);
+      if (_currentChatId != null) {
+        final chatIndex = _chatHistories.indexWhere(
+          (h) => h.id == _currentChatId,
+        );
+        if (chatIndex != -1) {
+          _chatHistories[chatIndex].messages = List.from(_messages);
+        }
+      }
+    });
+    _saveChatHistories();
+  }
+
+  void _scrollToBottom() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _scrollController.animateTo(
+        _scrollController.position.maxScrollExtent,
+        duration: Duration(milliseconds: 300),
+        curve: Curves.easeOut,
+      );
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: DropdownButton<String>(
+          hint: Text('Select Topic', style: TextStyle(color: Colors.white)),
+          value: _selectedTopic,
+          icon: Icon(Icons.arrow_downward, color: Colors.white),
+          underline: SizedBox(),
+          items: _topics.map((String topic) {
+            return DropdownMenuItem<String>(value: topic, child: Text(topic));
+          }).toList(),
+          onChanged: (String? newTopic) {
+            if (newTopic != null) {
+              _startNewChat(newTopic);
+            }
+          },
+        ),
       ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(
+              decoration: BoxDecoration(color: Colors.blue),
+              child: Text('Chat History'),
+            ),
+            ..._chatHistories.map(
+              (chat) => ListTile(
+                title: Text(
+                  '${chat.topic} - ${chat.timestamp.toString().substring(0, 10)}',
+                ),
+                onTap: () {
+                  _loadChat(chat.id);
+                  Navigator.pop(context);
+                },
+              ),
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      body: Column(
+        children: [
+          Expanded(
+            child: _selectedTopic == null
+                ? Center(
+                    child: Text(
+                      'Please select a topic to start the chat.',
+                      style: TextStyle(fontSize: 18, color: Colors.red),
+                    ),
+                  )
+                : ListView.builder(
+                    controller: _scrollController,
+                    padding: EdgeInsets.all(8.0),
+                    itemCount: _messages.length,
+                    itemBuilder: (context, index) {
+                      return ChatMessageWidget(message: _messages[index]);
+                    },
+                  ),
+          ),
+          if (_errorMessage != null)
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(_errorMessage!, style: TextStyle(color: Colors.red)),
+            ),
+          if (_isLoading)
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: SpinKitCircle(color: Colors.blue),
+            ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Row(
+              children: [
+                Expanded(
+                  child: TextField(
+                    controller: _controller,
+                    decoration: InputDecoration(
+                      hintText: 'Type your prompt...',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
+                    onSubmitted: (_) => _sendMessage(),
+                  ),
+                ),
+                IconButton(
+                  icon: Icon(Icons.send),
+                  onPressed: _selectedTopic != null ? _sendMessage : null,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
